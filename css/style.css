@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+/************************ ESTILOS PARA PAGINA DE INICIO ************************/
+
+.logo {
+  border: 2px solid black;
+  background-color: ghostwhite;
+  padding: 5px 15px 5px 15px;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+}
+
+.logo img {
+  width: 35px;
+  height: 35px;
+}
+
+.logo p {
+  color: green;
+  display: inline-block;
+}
+
+.navegacion {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navegacion li {
+  display: inline;
+  padding-left: 5px;
+}
+
+.navegacion a {
+  color: black;
+}
+
+.enlaceMail {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.enlaceMail img {
+  height: 60px;
+  width: 60px;
+}
+
+.encabezado {
+  padding: 15px;
+  text-align: center;
+}
+
+.tituloInicio {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.tituloInicio h1 {
+  color: green;
+}
+
+.tituloInicio p {
+  font-family: "Satisfy", cursive;
+}
+
+.staffInicio {
+  padding: 10px;
+  text-align: center;
+}
+
+.staffInicio h2 {
+  font-size: 32px;
+}
+
+.etiqueta {
+  display: inline;
+}
+
+.etiqueta img {
+  display: inline-block;
+  height: 110px;
+  width: 180px;
+}
+
+.persona {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+
+.persona li {
+  list-style-type: none;
+  width: 800px;
+  font-family: "Satisfy", cursive;
+}
+
+.servicioInicio {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.bloqueServInicio {
+  display: block;
+  width: 400px;
+}
+
+.servicioInicio h2 {
+  font-size: 32px;
+}
+
+.servicioInicio img {
+  width: 350px;
+}
+
+.servicioInicio p {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+}
+
+.clientesInicio {
+  position: relative;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite;
+}
+
+.clientesInicio h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.clientesInicio img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.clientesInicio li {
+  list-style-type: none;
+  font-family: "Satisfy", cursive;
+}
+
+.footerInicio {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(202, 202, 255);
+}
+
+.redes {
+  text-align: right;
+}
+
+.redes li {
+  display: inline;
+}
+
+.redes img {
+  width: 30px;
+}
+
+.footerInicio p {
+  color: rgb(255, 58, 58);
+}
+
+/************************ ESTILO SOBRE NOSOTROS ************************/
+
+.tituloNosotros {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.tituloNosotros h1 {
+  color: green;
+}
+
+.tituloNosotros p {
+  font-family: "Satisfy", cursive;
+}
+
+.parrafoNosotros {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.parrafoNosotros p {
+  font-family: "Satisfy", cursive;
+}
+
+.clientesNosotros {
+  position: relative;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: ghostwhite;
+}
+
+.clientesNosotros h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.clientesNosotros img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.clientesNosotros li {
+  list-style-type: none;
+  font-family: "Satisfy", cursive;
+}
+
+
+/************************ ESTILO SERVICIOS ************************/
+
+.tituloServicios {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.tituloServicios h1 {
+  color: green;
+}
+
+.tituloServicios p {
+  font-family: "Satisfy", cursive;
+}
+
+.tareasServicios {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(213, 255, 204);
+}
+
+.tareas {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite;
+}
+
+.tareasCentradas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tareasServicios img {
+  display: inline-block;
+  width: 350px;
+}
+
+.tareasServicios h2 {
+  color: black;
+  font-size: 32px;
+}
+
+.tareasServicios h3 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.tareasServicios ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.tareasServicios ol {
+  list-style-type: none;
+}
+
+.tareasServicios li {
+  list-style-type: none;
+  font-family: "Satisfy", cursive;
+}
+
+.tituloEjServicios {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite;
+}
+
+.tituloEjServicios h2 {
+  display: block;
+  font-size: 32px;
+  text-align: center;
+}
+
+.ejServicios {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.ejemplo {
+  display: block;
+}
+
+.ejServicios iframe {
+  width: 400px;
+}
+
+.ejServicios p {
+  font-family: "Satisfy", cursive;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/************************ ESTILO NOTICIAS ************************/
+
+.tituloNoticias {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: ghostwhite;
+  }
+  
+  .tituloNoticias h1 {
+    color: green;
+  }
+  
+  .tituloNoticias p {
+    font-family: "Satisfy", cursive;
+  }
+  
+  .parrafoNoticias {
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: ghostwhite;
+  }
+  
+  .parrafoNoticias p {
+    font-family: "Satisfy", cursive;
+  }
+
+  .parrafoNoticias img {
+    height: 200px;
+    margin: 10px 20px 0px 20px;
+  }
+
+/************************ ESTILO CONTACTO ************************/
+
+.tituloContacto {
+border: 1px black solid;
+margin: 10px;
+padding: 10px;
+text-align: center;
+background-color: ghostwhite;
+}
+
+.tituloContacto h1 {
+  color: green;
+}
+
+.tituloContacto p {
+  font-family: "Satisfy", cursive;
+}
+
+.formularioContacto {
+  padding: 10px;
+  margin: 10px;
+  border: 1px black solid;
+  background-color: ghostwhite;
+  display: inline-block;
+  text-align: center;
+}
+
+.listaContacto {
+  display: inline-block;
+}
+
+.listaContacto li {
+  list-style-type: none;
+  margin: 10px;
+  font-family: "Satisfy", cursive;
+}
+
+.formBotonContacto {
+  padding-top: 20px;
+  text-align: end;
+}
+
+.formBotonContacto input {
+  width: 100px;
+}

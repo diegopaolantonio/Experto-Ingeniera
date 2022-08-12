@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto - Experto Ingenieria</title>
+    <!-- FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="../img/leon_experto_verde_chico.png"
+      type="image/x-icon"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="encabezado">
+      <nav>
+        <div class="logo">
+          <!--Logo + Nombre de la empresa-->
+          <img src="../img/leon_experto_verde_chico.png" alt="Logo" />
+          <p>Experto Ingenieria</p>
+        </div>
+
+        <!--Lista de navegacion-->
+        <ul class="navegacion">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+
+        <!--Lista de idiomas, todavia no hemos visto como cambiar idiomas de paginas-->
+      </nav>
+    </header>
+
+    <main>
+      <div class="tituloContacto">
+        <h1>Contactese con nosotros.</h2>
+        <p>
+          Envienos un detalle de su consulta o sugerencia, detallando los datos
+          principales y las fechas estimadas del trabajo, y nuestros personal se
+          pondra en contacto con lo antes posible.
+        </p>
+      </div>
+
+      <div class="formularioContacto">
+       <form>
+          <div class="listaContacto">
+            <ul>
+              <li><label for="nombre">Nombre / Empresa</label></li>
+              <li><label for="telefono">Telefono de contacto</label></li>
+              <li><label for="email">e-mail</label></li>
+              <li><label for="consulta">Consulta</label></li>
+            </ul>
+          </div>
+
+          <div class="listaContacto">
+            <ul>
+              <li><input
+                type="text"
+                placeholder="Ej. Juan / Experto Ingenieria"
+                id="nombre"
+              /></li>
+              <li><input type="text" placeholder="Ej. 011 1234 5678" id="telefono" /></li>
+              <li><input type="text" placeholder="Ej. juan@experto.com" id="email" /></li>
+              <li><input type="text" placeholder="Resumen de la consulta" id="consulta" /></li>
+            </ul>
+          </div>
+        
+          <div class="formBotonContacto">
+            <input type="reset">  
+            <input type="submit">
+          </div>
+       
+        </form>
+      </div>   
+    </main>
+
+    <footer class="footerInicio">
+      <div class="redes">
+        <h3>Redes Sociales</h3>
+        <!--Agrego lista pero sin los enlaces ya que no existen las cuentas-->
+        <ul>
+          <li>
+            <a href="https://www.twitter.com" target="_blank"
+              ><img src="../img/twitter.png" alt="twitter"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/diegogabriel.paolantonio"
+              target="_blank"
+              ><img src="../img/facebook.png" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/diego_paolantonio/"
+              target="_blank"
+              ><img src="../img/instagram.png" alt="facebook"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/diego-gabriel-paolantonio-1a0587127"
+              target="_blank"
+              ><img src="../img/linkedin.png" alt="instagram"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <p>
+        Sitio web creado por Diego Gabriel Paolantonio - Todos los derechos
+        reservados
+      </p>
+    </footer>
+  </body>
+</html>
