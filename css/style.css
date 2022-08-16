@@ -1,9 +1,13 @@
 * {
   margin: 0;
   padding: 0;
-}
+ }
 
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+body {
+  background-color: #c9f8c3;
+}
 
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 
@@ -39,6 +43,15 @@
 
 .navegacion a {
   color: black;
+}
+
+.navegacion li:hover {
+  font-size: 1.25rem;
+  transition: all 0.5s;
+}
+
+.navegacion a:hover {
+  color: darkgreen;
 }
 
 .enlaceMail {

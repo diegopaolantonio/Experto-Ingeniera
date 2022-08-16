@@ -13,18 +13,20 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <header class="encabezado">
       <nav>
-        <div class="logo">
+        <div data-aos="zoom-in" class="logo">
           <!--Logo + Nombre de la empresa-->
           <img src="../img/leon_experto_verde_chico.png" alt="Logo" />
           <p>Experto Ingenieria</p>
         </div>
 
         <!--Lista de navegacion-->
-        <ul class="navegacion">
+        <ul data-aos="fade-left" class="navegacion">
           <li><a href="../index.html">Inicio</a></li>
           <li><a href="nosotros.html">Sobre Nosotros</a></li>
           <li><a href="servicios.html">Servicios</a></li>
@@ -74,7 +76,7 @@
           realizar las puebas necesarias para entregar los dispositivos listos
           para producir.
         </p>
-        <img src="../img/ej_noticia.png" alt="">
+        <img src="../img/ej_noticia.png" alt="" />
       </div>
 
       <div class="parrafoNoticias">
@@ -89,9 +91,9 @@
           piezas de pruba para probar los ciclos de trabajo antes de entregas
           las celdas.
         </p>
-        <img src="../img/ej_equipo_1.png" alt="Osciloscopio">
-        <img src="../img/ej_equipo_2.png" alt="Generador de funciones">
-        <img src="../img/ej_equipo_3.png" alt="Impresora 3D">
+        <img src="../img/ej_equipo_1.png" alt="Osciloscopio" />
+        <img src="../img/ej_equipo_2.png" alt="Generador de funciones" />
+        <img src="../img/ej_equipo_3.png" alt="Impresora 3D" />
       </div>
     </main>
 
@@ -133,5 +135,10 @@
         reservados
       </p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

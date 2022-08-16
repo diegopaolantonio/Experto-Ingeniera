@@ -13,19 +13,21 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
     <header class="encabezado">
       <nav>
-        <div class="logo">
+        <div data-aos="zoom-in" class="logo">
           <!--Logo + Nombre de la empresa-->
           <img src="img/leon_experto_verde_chico.png" alt="Logo" />
           <p>Experto Ingenieria</p>
         </div>
 
         <!--Lista de navegacion-->
-        <ul class="navegacion">
+        <ul data-aos="fade-left" class="navegacion">
           <li><a href="index.html">Inicio</a></li>
           <li><a href="/html/nosotros.html">Sobre Nosotros</a></li>
           <li><a href="/html/servicios.html">Servicios</a></li>
@@ -56,19 +58,23 @@
       <div class="staffInicio">
         <h2>Sobre nuestro Staff</h2>
         <div class="etiqueta">
-          <img src="/img/foto_perfil.png" alt="Foto_De_Perfil" />
+          <img
+            data-aos="flip-left"
+            src="/img/foto_perfil.png"
+            alt="Foto_De_Perfil"
+          />
           <div class="persona">
             <ul>
-            <li>Nombre: Diego Gabriel Paolantonio.</li>
-            <li>Cargo: Ingeniero Electronico / Automatista</li>
-            <li>
-              Experiencia: Soy ingeniero Electronico, llevo mas de 10 años
-              realizando mejoras en las industrias mas importantes de nuestro
-              pais y la region, trabajando con multiples marcas de productos,
-              bajo los estandares de calidad mas altos, siempre adaptandonos a
-              las necesidades de nuestros clientes.
-            </li>
-          </ul>
+              <li>Nombre: Diego Gabriel Paolantonio.</li>
+              <li>Cargo: Ingeniero Electronico / Automatista</li>
+              <li>
+                Experiencia: Soy ingeniero Electronico, llevo mas de 10 años
+                realizando mejoras en las industrias mas importantes de nuestro
+                pais y la region, trabajando con multiples marcas de productos,
+                bajo los estandares de calidad mas altos, siempre adaptandonos a
+                las necesidades de nuestros clientes.
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -197,5 +203,10 @@
         reservados
       </p>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
