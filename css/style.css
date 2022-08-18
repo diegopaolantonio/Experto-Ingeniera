@@ -20,9 +20,10 @@ body {
   position: relative;
 }
 
-.logo img {
+.logoImg {
   width: 35px;
   height: 35px;
+  margin-right: 5px;
 }
 
 .logo p {
