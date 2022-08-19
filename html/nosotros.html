@@ -26,80 +26,78 @@
 
   <body class="container-fluid">
     <header class="encabezado">
-      <nav>
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <!--Logo + Nombre de la empresa-->
-            <div data-aos="fade-right">
-              <img
-                class="logoImg"
-                src="../img/leon_experto_verde_chico.png"
-                alt="Logo"
-              />
-              <a class="navbar-brand" href="#">Experto Ingenieria</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <!--Lista de navegacion-->
-              <ul data-aos="fade-down" class="navbar-nav mx-auto navegacion">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="nosotros.html"
-                    >Sobre Nosotros</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="noticias.html">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-              </ul>
-              <!--Lista de idiomas, todavia no esta hecho el cambio de idiomas-->
-              <ul
-                data-aos="fade-left"
-                class="navbar-nav ms-auto ms-auto navegacion"
-              >
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="nosotros.html"
-                    >ES</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="nosotros.html">EN</a>
-                </li>
-              </ul>
-            </div>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <!--Logo + Nombre de la empresa-->
+          <div data-aos="fade-right">
+            <img
+              class="logoImg"
+              src="../img/leon_experto_verde_chico.png"
+              alt="Logo"
+            />
+            <a class="navbar-brand" href="#">Experto Ingenieria</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
-        </nav>
-
-        <!-- Enlace fijo para contacto -->
-        <div class="enlaceMail">
-          <a href="contacto.html"><img src="../img/mail.png" alt="mail" /></a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!--Lista de navegacion-->
+            <ul data-aos="fade-down" class="navbar-nav mx-auto navegacion">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="nosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <!--Lista de idiomas, todavia no esta hecho el cambio de idiomas-->
+            <ul
+              data-aos="fade-left"
+              class="navbar-nav ms-auto ms-auto navegacion"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="nosotros.html"
+                  >ES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">EN</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
+
+      <!-- Enlace fijo para contacto -->
+      <div class="enlaceMail">
+        <a href="contacto.html"><img src="../img/mail.png" alt="mail" /></a>
+      </div>
     </header>
 
     <main>
@@ -148,62 +146,54 @@
         <img src="../img/ej_staffinicial.png" alt="Empresa inicial" />
       </div>
 
-      <div class="clientesNosotros">
+      <div class="row text-center clientesNosotros">
         <!--Lista de clientes con algunos datos de los trabajos reales realizados-->
         <h2>Algunos de nuestros clientes</h2>
 
-        <ul>
-          <li>
-            <div>
-              <img
-                src="../img/analyzer_sa-removebg-preview.png"
-                alt="Logo Analyzer S.A."
-              />
-              <ul>
-                <li>Nombre: Analyzer S.A.</li>
-                <li>
-                  Proyecto: Tablero antiexplosivo para control de bomdas
-                  hidraulicas en zona de tanques de aceite.
-                </li>
-                <li>Año: 2021.</li>
-              </ul>
-            </div>
-          </li>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <img
+            src="../img/analyzer_sa-removebg-preview.png"
+            alt="Logo Analyzer S.A."
+          />
+          <ul>
+            <li>Nombre: Analyzer S.A.</li>
+            <li>
+              Proyecto: Tablero antiexplosivo para control de bomdas hidraulicas
+              en zona de tanques de aceite.
+            </li>
+            <li>Año: 2021.</li>
+          </ul>
+        </div>
 
-          <li>
-            <div>
-              <img
-                src="../img/ananda_pack_2-removebg-preview.png"
-                alt="Logo Ananda Pack"
-              />
-              <ul>
-                <li>Nombre: Ananda Pack</li>
-                <li>
-                  Proyecto: Control de motor en corrugadora de onda E con
-                  variador de velocidad Delta.
-                </li>
-                <li>Año: 2022.</li>
-              </ul>
-            </div>
-          </li>
+        <div class="col-xl-4 col-md-6 col-sm-12">
+          <img
+            src="../img/ananda_pack_2-removebg-preview.png"
+            alt="Logo Ananda Pack"
+          />
+          <ul>
+            <li>Nombre: Ananda Pack</li>
+            <li>
+              Proyecto: Control de motor en corrugadora de onda E con variador
+              de velocidad Delta.
+            </li>
+            <li>Año: 2022.</li>
+          </ul>
+        </div>
 
-          <li>
-            <div>
-              <img
-                src="../img/gaspar_gomas-removebg-preview.png"
-                alt="Logo Gaspar Gomas"
-              />
-              <ul>
-                <li>Nombre: Gaspar Gomas</li>
-                <li>
-                  Proyecto: Backup de controladores Logo! de 4 prensas
-                  hidraulicas, y remplazo de un controlador dañado.
-                </li>
-                <li>Año: 2022.</li>
-              </ul>
-            </div>
-          </li>
-        </ul>
+        <div class="col-xl-4 col-md-12 col-sm-12">
+          <img
+            src="../img/gaspar_gomas-removebg-preview.png"
+            alt="Logo Gaspar Gomas"
+          />
+          <ul>
+            <li>Nombre: Gaspar Gomas</li>
+            <li>
+              Proyecto: Backup de controladores Logo! de 4 prensas hidraulicas,
+              y remplazo de un controlador dañado.
+            </li>
+            <li>Año: 2022.</li>
+          </ul>
+        </div>
       </div>
     </main>
 

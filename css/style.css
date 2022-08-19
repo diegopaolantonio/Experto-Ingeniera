@@ -5,11 +5,16 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
+/************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
+
+
 body {
   background-color: #c9f8c3;
 }
 
-/************************ ESTILOS PARA PAGINA DE INICIO ************************/
+.encabezado {
+  padding: 15px;
+}
 
 .logoImg {
   width: 35px;
@@ -37,10 +42,37 @@ body {
   width: 60px;
 }
 
-.encabezado {
-  padding: 15px;
-  text-align: center;
+.footerInicio {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(202, 202, 255);
 }
+
+.footerInicio h3 {
+  font-size: 1rem;
+}
+
+.redes {
+  text-align: right;
+  margin-right: 80px;
+}
+
+.redes li {
+  display: inline;
+}
+
+.redes img {
+  width: 30px;
+}
+
+.footerInicio p {
+  font-size: 1rem;
+  margin: 0px;
+  color: rgb(255, 58, 58);
+}
+
+/************************ ESTILOS PARA PAGINA DE INICIO ************************/
 
 .tituloInicio {
   border: 1px black solid;
@@ -59,54 +91,17 @@ body {
 }
 
 .staffInicio {
-  padding: 10px;
-  text-align: center;
-}
-
-.staffInicio h2 {
-  font-size: 32px;
-}
-
-.etiqueta {
-  display: inline;
-}
-
-.etiqueta img {
-  display: inline-block;
-  height: 110px;
-  width: 180px;
-}
-
-.persona {
-  display: inline-block;
-  position: relative;
-  text-align: left;
-}
-
-.persona li {
-  list-style-type: none;
-  width: 800px;
-  font-family: "Satisfy", cursive;
+  border: 1px solid black;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
+  /* font-family: "Satisfy", cursive; */
 }
 
 .servicioInicio {
-  display: flex;
-  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
   padding: 10px;
-  justify-content: space-evenly;
-}
-
-.bloqueServInicio {
-  display: block;
-  width: 400px;
-}
-
-.servicioInicio h2 {
-  font-size: 32px;
-}
-
-.servicioInicio img {
-  width: 350px;
+  background-color: ghostwhite;
 }
 
 .servicioInicio p {
@@ -114,9 +109,12 @@ body {
   font-size: 20px;
 }
 
+.imagenCarousel {
+  height: 300px;
+  object-fit: contain;
+}
+
 .clientesInicio {
-  position: relative;
-  text-align: center;
   border: 1px solid black;
   margin: 10px;
   padding: 10px;
@@ -125,12 +123,12 @@ body {
 
 .clientesInicio h2 {
   font-size: 40px;
-  margin-bottom: 10px;
 }
 
 .clientesInicio img {
   width: 200px;
-  margin-top: 20px;
+  height: 90px;
+  object-fit: contain;
 }
 
 .clientesInicio li {
@@ -138,31 +136,7 @@ body {
   font-family: "Satisfy", cursive;
 }
 
-.footerInicio {
-  border: 1px solid black;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgb(202, 202, 255);
-}
-
-.redes {
-  text-align: right;
-  margin-right: 80px;
-}
-
-.redes li {
-  display: inline;
-}
-
-.redes img {
-  width: 30px;
-}
-
-.footerInicio p {
-  color: rgb(255, 58, 58);
-}
-
-/************************ ESTILO SOBRE NOSOTROS ************************/
+/************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
 
 .tituloNosotros {
   border: 1px black solid;
@@ -193,8 +167,6 @@ body {
 }
 
 .clientesNosotros {
-  position: relative;
-  text-align: center;
   margin: 10px;
   padding: 10px;
   border: 1px solid black;
@@ -203,12 +175,12 @@ body {
 
 .clientesNosotros h2 {
   font-size: 40px;
-  margin-bottom: 10px;
 }
 
 .clientesNosotros img {
   width: 200px;
-  margin-top: 20px;
+  height: 90px;
+  object-fit:contain;
 }
 
 .clientesNosotros li {
@@ -216,8 +188,7 @@ body {
   font-family: "Satisfy", cursive;
 }
 
-
-/************************ ESTILO SERVICIOS ************************/
+/************************ ESTILOS PARA PAGINA SERVICIOS ************************/
 
 .tituloServicios {
   border: 1px black solid;
@@ -322,7 +293,7 @@ body {
   margin: 10px;
 }
 
-/************************ ESTILO NOTICIAS ************************/
+/************************ ESTILOS PARA PAGINA NOTICIAS ************************/
 
 .tituloNoticias {
   border: 1px black solid;
@@ -357,7 +328,7 @@ body {
     margin: 10px 20px 0px 20px;
   }
 
-/************************ ESTILO CONTACTO ************************/
+/************************ ESTILOS PARA PAGINA CONTACTO ************************/
 
 .tituloContacto {
 border: 1px black solid;
