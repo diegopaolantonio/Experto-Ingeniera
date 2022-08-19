@@ -11,39 +11,10 @@ body {
 
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 
-.logo {
-  border: 2px solid black;
-  background-color: ghostwhite;
-  padding: 5px 15px 5px 15px;
-  font-size: 16px;
-  display: inline-block;
-  position: relative;
-}
-
 .logoImg {
   width: 35px;
   height: 35px;
   margin-right: 5px;
-}
-
-.logo p {
-  color: green;
-  display: inline-block;
-}
-
-.navegacion {
-  display: inline-block;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.navegacion li {
-  display: inline;
-  padding-left: 5px;
-}
-
-.navegacion a {
-  color: black;
 }
 
 .navegacion li:hover {

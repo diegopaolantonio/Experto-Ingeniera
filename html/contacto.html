@@ -23,37 +23,36 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body>
+
+  <body class="container-fluid">
     <header class="encabezado">
       <nav>
-        <!-- <div data-aos="zoom-in" class="logo"> -->
-        <!--Logo + Nombre de la empresa-->
-        <!-- <img src="../img/leon_experto_verde_chico.png" alt="Logo" />
-          <p>Experto Ingenieria</p>
-        </div> -->
-
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
-            <img
-              class="logoImg"
-              src="../img/leon_experto_verde_chico.png"
-              alt="Logo"
-            />
-            <a class="navbar-brand" href="#">Experto Ingenieria</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <!--Logo + Nombre de la empresa-->
+            <div data-aos="fade-right">
+              <img
+                class="logoImg"
+                src="../img/leon_experto_verde_chico.png"
+                alt="Logo"
+              />
+              <a class="navbar-brand" href="#">Experto Ingenieria</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mx-auto">
+              <!--Lista de navegacion-->
+              <ul data-aos="fade-down" class="navbar-nav mx-auto navegacion">
                 <li class="nav-item">
                   <a class="nav-link" href="../index.html">Inicio</a>
                 </li>
@@ -75,7 +74,11 @@
                   >
                 </li>
               </ul>
-              <ul class="navbar-nav ms-auto ms-auto">
+              <!--Lista de idiomas, todavia no esta hecho el cambio de idiomas-->
+              <ul
+                data-aos="fade-left"
+                class="navbar-nav ms-auto ms-auto navegacion"
+              >
                 <li class="nav-item">
                   <a
                     class="nav-link active"
@@ -91,17 +94,6 @@
             </div>
           </div>
         </nav>
-
-        <!--Lista de navegacion-->
-        <!-- <ul data-aos="fade-left" class="navegacion">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="nosotros.html">Sobre Nosotros</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="noticias.html">Noticias</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul> -->
-
-        <!--Lista de idiomas, todavia no hemos visto como cambiar idiomas de paginas-->
       </nav>
     </header>
 
