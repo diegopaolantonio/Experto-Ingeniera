@@ -95,6 +95,7 @@ body {
   margin: 10px 10px 0px 10px;
   padding: 10px 10px 0px 10px;
   /* font-family: "Satisfy", cursive; */
+  background-color: ghostwhite;
 }
 
 .servicioInicio {
@@ -156,14 +157,17 @@ body {
 
 .parrafoNosotros {
   border: 1px black solid;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  background-color: ghostwhite;
+margin: 10px;
 }
 
 .parrafoNosotros p {
   font-family: "Satisfy", cursive;
+}
+
+.parrafoNosotros div {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: ghostwhite;
 }
 
 .clientesNosotros {
@@ -302,15 +306,15 @@ body {
   text-align: center;
   background-color: ghostwhite;
   }
-  
+
   .tituloNoticias h1 {
     color: green;
   }
-  
+
   .tituloNoticias p {
     font-family: "Satisfy", cursive;
   }
-  
+
   .parrafoNoticias {
     border: 1px black solid;
     margin: 10px;
@@ -318,7 +322,7 @@ body {
     text-align: center;
     background-color: ghostwhite;
   }
-  
+
   .parrafoNoticias p {
     font-family: "Satisfy", cursive;
   }
