@@ -213,28 +213,19 @@ margin: 10px;
 .tareasServicios {
   border: 1px black solid;
   margin: 10px;
-  padding: 10px;
-  text-align: center;
-  background-color: rgb(213, 255, 204);
 }
 
 .tareas {
   border: 1px black solid;
-  margin: 10px;
-  padding: 10px;
   background-color: ghostwhite;
-}
-
-.tareasCentradas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding: 15px;
 }
 
 .tareasServicios img {
   display: inline-block;
   width: 350px;
+  height: 200px;
+  object-fit: contain;
 }
 
 .tareasServicios h2 {
@@ -242,54 +233,31 @@ margin: 10px;
   font-size: 32px;
 }
 
-.tareasServicios h3 {
-  font-size: 24px;
-  margin-top: 10px;
+.tareasServicios h5 {
+  margin-top: 15px;
 }
 
-.tareasServicios ul {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: left;
-  margin-left: 30px;
-}
-
-.tareasServicios ol {
+.tareasServicios p {
   list-style-type: none;
-}
-
-.tareasServicios li {
-  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
   font-family: "Satisfy", cursive;
 }
 
 .tituloEjServicios {
-  border: 1px black solid;
+  border: 2px black solid;
   margin: 10px;
   padding: 10px;
   background-color: ghostwhite;
 }
 
 .tituloEjServicios h2 {
-  display: block;
   font-size: 32px;
-  text-align: center;
-}
-
-.ejServicios {
-  display: flex;
-  text-align: center;
-  justify-content: space-evenly;
-}
-
-.ejemplo {
-  display: block;
 }
 
 .ejServicios iframe {
   width: 400px;
-}
+} 
 
 .ejServicios p {
   font-family: "Satisfy", cursive;
@@ -318,18 +286,22 @@ margin: 10px;
   .parrafoNoticias {
     border: 1px black solid;
     margin: 10px;
-    padding: 10px;
-    text-align: center;
     background-color: ghostwhite;
   }
 
-  .parrafoNoticias p {
+  .noticia {
+    border: 1px black solid;
+    padding: 10px;
+    background-color: ghostwhite;
+  }
+
+  .noticia p {
     font-family: "Satisfy", cursive;
   }
 
-  .parrafoNoticias img {
+  .noticia img {
     height: 200px;
-    margin: 10px 20px 0px 20px;
+    margin: 10px;
   }
 
 /************************ ESTILOS PARA PAGINA CONTACTO ************************/
@@ -355,17 +327,26 @@ background-color: ghostwhite;
   margin: 10px;
   border: 1px black solid;
   background-color: ghostwhite;
-  display: inline-block;
+  /* display: inline-block; */
   text-align: center;
 }
 
-.listaContacto {
+.listaContacto_1 {
   display: inline-block;
 }
 
-.listaContacto li {
+.listaContacto_1 li {
   list-style-type: none;
-  margin: 10px;
+  margin: 5px;
+  font-family: "Satisfy", cursive;
+}
+
+.listaContacto_2 {
+  display: inline-block;
+}
+
+.listaContacto_2 li {
+  list-style-type: none;
   font-family: "Satisfy", cursive;
 }
 
@@ -376,4 +357,23 @@ background-color: ghostwhite;
 
 .formBotonContacto input {
   width: 100px;
+}
+
+.mapaContacto {
+  margin: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: ghostwhite;
+}
+
+.mapaContacto h2 {
+  font-size: 2rem;
+  margin: 10px;
+  text-align: center;
+}
+
+.mapaContacto iframe {
+  display: inline-block;
+  width: 350px;
+  height: 350px;
 }

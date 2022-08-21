@@ -26,79 +26,78 @@
 
   <body class="container-fluid">
     <header class="encabezado">
-
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg bg-light">
-          <div class="container-fluid">
-            <!--Logo + Nombre de la empresa-->
-            <div data-aos="fade-right">
-              <img
-                class="logoImg"
-                src="../img/leon_experto_verde_chico.png"
-                alt="Logo"
-              />
-              <a class="navbar-brand" href="#">Experto Ingenieria</a>
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <!--Lista de navegacion-->
-              <ul data-aos="fade-down" class="navbar-nav mx-auto navegacion">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="servicios.html"
-                    >Servicios</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="noticias.html">Noticias</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-              </ul>
-              <!--Lista de idiomas, todavia no esta hecho el cambio de idiomas-->
-              <ul
-                data-aos="fade-left"
-                class="navbar-nav ms-auto ms-auto navegacion"
-              >
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="servicios.html"
-                    >ES</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="servicios.html">EN</a>
-                </li>
-              </ul>
-            </div>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <!--Logo + Nombre de la empresa-->
+          <div data-aos="fade-right">
+            <img
+              class="logoImg"
+              src="../img/leon_experto_verde_chico.png"
+              alt="Logo"
+            />
+            <a class="navbar-brand" href="#">Experto Ingenieria</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
-        </nav>
-
-        <!-- Enlace fijo para contacto -->
-        <div class="enlaceMail">
-          <a href="contacto.html"><img src="../img/mail.png" alt="mail" /></a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!--Lista de navegacion-->
+            <ul data-aos="fade-down" class="navbar-nav mx-auto navegacion">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <!--Lista de idiomas, todavia no esta hecho el cambio de idiomas-->
+            <ul
+              data-aos="fade-left"
+              class="navbar-nav ms-auto ms-auto navegacion"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="servicios.html"
+                  >ES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">EN</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+
+      <!-- Enlace fijo para contacto -->
+      <div class="enlaceMail">
+        <a href="contacto.html"><img src="../img/mail.png" alt="mail" /></a>
+      </div>
     </header>
 
     <main>
@@ -112,8 +111,8 @@
         </p>
       </div>
 
-      <div class="tareasServicios">
-        <div class="tareas">
+      <div class="row text-center tareasServicios">
+        <div class="col-xl-6 col-md-6 col-sm-12 tareas">
           <h2>Programación de automatismos industriales</h2>
           <p>
             Hemos realizado tareas de programacion para diversas industrias de
@@ -123,31 +122,21 @@
             clientes como Comau, Fiat, Gomas Gaspar, Ananda Pack, Infas, y
             otros.
           </p>
-          <h3>Tareas que realizamos:</h3>
-          <div class="tareasCentradas">
-            <img src="../img/ej_software.png" alt="ej. software" />
-            <div>
-              <ul>
-                <li>Líder de proyecto.</li>
-                <li>
-                  Diseño y modificación de programas:
-                  <ol>
-                    <li>- PLC</li>
-                    <li>- HMI</li>
-                    <li>- Sistemas SCADA</li>
-                    <li>- Parametrización de variadores de velocidad</li>
-                    <li>- Etc.</li>
-                  </ol>
-                </li>
-                <li>Retrofitting.</li>
-                <li>Asistencia técnica.</li>
-                <li>Asistencias a producción.</li>
-              </ul>
-            </div>
-          </div>
+          <h5>Tareas que realizamos:</h5>
+          <img src="../img/ej_software.png" alt="ej. software" />
+          <p>Líder de proyecto.</p>
+          <p>Diseño y modificación de programacion:</p>
+          <p>- PLC</p>
+          <p>- HMI</p>
+          <p>- SCADA</p>
+          <p>- Variadores de velocidad</p>
+          <p>- Etc.</p>
+          <p>Retrofitting.</p>
+          <p>Asistencia técnica.</p>
+          <p>Asistencias a producción.</p>
         </div>
 
-        <div class="tareas">
+        <div class="col-xl-6 col-md-6 col-sm-12 tareas">
           <h2>Diseño e Instalaciones eléctricos industriales</h2>
           <p>
             Hemos realizado tareas de intalaciones electricas para diversas
@@ -156,76 +145,56 @@
             otras, en clientes como Comau, Fiat, Analyzer, Ananda Pack, Infas, y
             otros.
           </p>
-          <h3>Tareas que realizamos:</h3>
-          <div class="tareasCentradas">
-            <img
-              src="../img/ej_electrico.png"
-              alt="ej. instalacion electrica"
-            />
-            <div>
-              <ul>
-                <li>Líder de proyecto.</li>
-                <li>Diseño de planos eléctricos.</li>
-                <li>Armado de tableros eléctricos.</li>
-                <li>Instalaciones eléctricas industriales.</li>
-                <li>Retrofitting.</li>
-                <li>Asistencia técnica.</li>
-                <li>Asistencias a producción.</li>
-              </ul>
-            </div>
-          </div>
+          <h5>Tareas que realizamos:</h5>
+          <img src="../img/ej_electrico.png" alt="ej. instalacion electrica" />
+          <p>Líder de proyecto.</p>
+          <p>Diseño de planos eléctricos.</p>
+          <p>Armado de tableros eléctricos.</p>
+          <p>Instalaciones eléctricas industriales.</p>
+          <p>Retrofitting.</p>
+          <p>Asistencia técnica.</p>
+          <p>Asistencias a producción.</p>
         </div>
 
-        <div class="tareas">
-          <h2>Diseño de paginas Web - Nuevo servicio</h2>
+        <div class="col-xl-6 col-md-6 col-sm-12 tareas">
+          <h2>Diseño de paginas Web</h2>
+          <h2>Nuevo servicio</h2>
           <p>
             Este servicio recien esta por ser implementado, tenemos el personal
             calificado, y tenemos un portfolio que avala nuestra capacidad de
             desarrollo.
           </p>
-          <h3>Tareas que realizamos:</h3>
-          <div class="tareasCentradas">
-            <img src="../img/ej_web.png" alt="ej. desarrollo web" />
-            <div>
-              <ul>
-                <li>Líder de proyecto.</li>
-                <li>Diseño de paginas nuevas.</li>
-                <li>Modificación de paginas existentes.</li>
-                <li>Asistencia técnica.</li>
-              </ul>
-            </div>
-          </div>
+          <h5>Tareas que realizamos:</h5>
+          <img src="../img/ej_web.png" alt="ej. desarrollo web" />
+          <p>Líder de proyecto.</p>
+          <p>Diseño de paginas nuevas.</p>
+          <p>Modificación de paginas existentes.</p>
+          <p>Asistencia técnica.</p>
         </div>
 
-        <div class="tareas">
-          <h2>Automatizacion con Arduino - Nuevo servicio</h2>
+        <div class="col-xl-6 col-md-6 col-sm-12 tareas">
+          <h2>Automatizacion con Arduino</h2>
+          <h2>Nuevo servicio</h2>
           <p>
             Este servicio fue implementado recientemente, dando la posibilidad
             de automatismos mas economidos a industrias mas pequeñas con menos
             presupuesto de desarrollo, pero que tienen la necesidad de mejorar
             sus proceso productivo.
           </p>
-          <h3>Tareas que realizamos:</h3>
-          <div class="tareasCentradas">
-            <img src="../img/ej_arduino.png" alt="ej. desarrollo con Arduino" />
-            <div>
-              <ul>
-                <li>Líder de proyecto.</li>
-                <li>Diseño y modificación de programas.</li>
-                <li>Diseño de circuitos electrónicos.</li>
-                <li>Programación de microcontroladores.</li>
-                <li>Automatización con Arduino.</li>
-              </ul>
-            </div>
-          </div>
+          <h5>Tareas que realizamos:</h5>
+          <img src="../img/ej_arduino.png" alt="ej. desarrollo con Arduino" />
+          <p>Líder de proyecto.</p>
+          <p>Diseño y modificación de programas.</p>
+          <p>Diseño de circuitos electrónicos.</p>
+          <p>Programación de microcontroladores.</p>
+          <p>Automatización con Arduino.</p>
         </div>
       </div>
 
-      <div class="tituloEjServicios">
+      <div class="row text-center tituloEjServicios">
         <h2>Ej de proceso automatizado:</h2>
 
-        <div class="ejServicios">
-          <div class="ejServicios ejemplo">
+          <div class="col-xl-6 col-md-6 col-sm-12 ejServicios">
             <p>Automotriz</p>
             <iframe
               width="560"
@@ -238,7 +207,7 @@
             ></iframe>
           </div>
 
-          <div class="ejServicios ejemplo">
+          <div class="col-xl-6 col-md-6 col-sm-12 ejServicios">
             <p>Empaquetado</p>
             <iframe
               width="560"
@@ -250,7 +219,6 @@
               allowfullscreen
             ></iframe>
           </div>
-        </div>
       </div>
     </main>
 
