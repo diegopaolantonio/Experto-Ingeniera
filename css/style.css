@@ -21,6 +21,10 @@ body {
   margin-right: 5px;
 }
 
+.navegacion li {
+  text-align: right;
+}
+
 .navegacion li:hover {
   font-size: 1.25rem;
   transition: all 0.5s;
