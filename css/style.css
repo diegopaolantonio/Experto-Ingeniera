@@ -1,12 +1,11 @@
 * {
   margin: 0;
   padding: 0;
- }
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 /************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
-
 
 body {
   background-color: #c9f8c3;
@@ -72,6 +71,12 @@ body {
   color: rgb(255, 58, 58);
 }
 
+/* Clase creada para quitar margenes de bootstrap */
+.nuevaClase {
+  margin: 0px;
+  padding: 0px;
+}
+
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 
 .tituloInicio {
@@ -94,7 +99,6 @@ body {
   border: 1px solid black;
   margin: 10px 10px 0px 10px;
   padding: 10px 10px 0px 10px;
-  /* font-family: "Satisfy", cursive; */
   background-color: ghostwhite;
 }
 
@@ -157,7 +161,9 @@ body {
 
 .parrafoNosotros {
   border: 1px black solid;
-margin: 10px;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite;
 }
 
 .parrafoNosotros p {
@@ -184,7 +190,7 @@ margin: 10px;
 .clientesNosotros img {
   width: 200px;
   height: 90px;
-  object-fit:contain;
+  object-fit: contain;
 }
 
 .clientesNosotros li {
@@ -212,13 +218,9 @@ margin: 10px;
 
 .tareasServicios {
   border: 1px black solid;
-  margin: 10px;
-}
-
-.tareas {
-  border: 1px black solid;
   background-color: ghostwhite;
-  padding: 15px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .tareasServicios img {
@@ -257,7 +259,7 @@ margin: 10px;
 
 .ejServicios iframe {
   width: 400px;
-} 
+}
 
 .ejServicios p {
   font-family: "Satisfy", cursive;
@@ -273,45 +275,40 @@ margin: 10px;
   padding: 10px;
   text-align: center;
   background-color: ghostwhite;
-  }
+}
 
-  .tituloNoticias h1 {
-    color: green;
-  }
+.tituloNoticias h1 {
+  color: green;
+}
 
-  .tituloNoticias p {
-    font-family: "Satisfy", cursive;
-  }
+.tituloNoticias p {
+  font-family: "Satisfy", cursive;
+}
 
-  .parrafoNoticias {
-    border: 1px black solid;
-    margin: 10px;
-    background-color: ghostwhite;
-  }
+.noticia {
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite;
+}
 
-  .noticia {
-    border: 1px black solid;
-    padding: 10px;
-    background-color: ghostwhite;
-  }
+.noticia p {
+  font-family: "Satisfy", cursive;
+}
 
-  .noticia p {
-    font-family: "Satisfy", cursive;
-  }
-
-  .noticia img {
-    height: 200px;
-    margin: 10px;
-  }
+.noticia img {
+  height: 200px;
+  margin: 10px;
+}
 
 /************************ ESTILOS PARA PAGINA CONTACTO ************************/
 
 .tituloContacto {
-border: 1px black solid;
-margin: 10px;
-padding: 10px;
-text-align: center;
-background-color: ghostwhite;
+  border: 1px black solid;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: ghostwhite;
 }
 
 .tituloContacto h1 {
@@ -327,32 +324,33 @@ background-color: ghostwhite;
   margin: 10px;
   border: 1px black solid;
   background-color: ghostwhite;
-  /* display: inline-block; */
   text-align: center;
 }
 
-.listaContacto_1 {
+.listaContacto {
   display: inline-block;
 }
 
-.listaContacto_1 li {
-  list-style-type: none;
-  margin: 5px;
-  font-family: "Satisfy", cursive;
+.listaContacto ul {
+  margin: 0px;
+  padding: 0px;
 }
 
-.listaContacto_2 {
+.listaContacto li {
+  list-style-type: none;
+  font-family: "Satisfy", cursive;
+  padding-bottom: 10px;
+}
+
+.listaContacto p {
   display: inline-block;
-}
-
-.listaContacto_2 li {
-  list-style-type: none;
-  font-family: "Satisfy", cursive;
+  width: 170px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .formBotonContacto {
   padding-top: 20px;
-  text-align: end;
 }
 
 .formBotonContacto input {
@@ -361,6 +359,7 @@ background-color: ghostwhite;
 
 .mapaContacto {
   margin: 10px;
+  padding: 10px;
   border: 1px solid black;
   text-align: center;
   background-color: ghostwhite;
@@ -368,7 +367,7 @@ background-color: ghostwhite;
 
 .mapaContacto h2 {
   font-size: 2rem;
-  margin: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -377,3 +376,4 @@ background-color: ghostwhite;
   width: 350px;
   height: 350px;
 }
+
