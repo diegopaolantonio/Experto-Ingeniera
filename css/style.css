@@ -1,433 +1,331 @@
+/************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
 * {
   margin: 0;
-  padding: 0;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-
-/************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
+  padding: 0; }
 
 body {
-  background-color: #c9f8c3;
-}
+  background-color: #c9f8c3; }
 
-.encabezado {
-  padding: 15px;
-}
-
-.logoImg {
-  width: 35px;
-  height: 35px;
-  margin-right: 5px;
-}
-
-.navegacion li {
-  text-align: right;
-}
-
-.navegacion li:hover {
-  font-size: 1.25rem;
-  transition: all 0.5s;
-}
-
-.navegacion a:hover {
-  color: darkgreen;
-}
+header {
+  padding: 15px; }
+  header Img {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px; }
+  header ul li {
+    text-align: right; }
+    header ul li:hover {
+      font-size: 1.25rem;
+      transition: all 0.5s; }
+  header .enlace a:hover {
+    color: darkgreen; }
 
 .enlaceMail {
   position: fixed;
   bottom: 20px;
-  right: 20px;
-}
+  right: 20px; }
+  .enlaceMail img {
+    height: 60px;
+    width: 60px; }
 
-.enlaceMail img {
-  height: 60px;
-  width: 60px;
-}
-
-.footerInicio {
+footer {
   border: 1px solid black;
   margin: 10px;
   padding: 10px;
-  background-color: rgb(202, 202, 255);
-}
-
-.footerInicio h3 {
-  font-size: 1rem;
-}
-
-.redes {
-  text-align: right;
-  margin-right: 80px;
-}
-
-.redes li {
-  display: inline;
-}
-
-.redes img {
-  width: 30px;
-}
-
-.footerInicio p {
-  font-size: 1rem;
-  margin: 0px;
-  color: rgb(255, 58, 58);
-}
+  background-color: #cacaff; }
+  footer .redes {
+    text-align: right;
+    margin-right: 80px; }
+    footer .redes h3 {
+      font-size: 1rem; }
+    footer .redes li {
+      display: inline; }
+      footer .redes li img {
+        width: 30px; }
+  footer p {
+    font-size: 1rem;
+    margin: 0px;
+    color: #ff3a3a; }
 
 /* Clase creada para quitar margenes de bootstrap */
 .nuevaClase {
   margin: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
-/************************ ESTILOS PARA PAGINA DE INICIO ************************/
-
-.tituloInicio {
+.titulo {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
+  .titulo h1 {
+    color: green; }
+  .titulo p {
+    font-size: 1.15rem;
+    font-family: "Satisfy", cursive; }
 
-.tituloInicio h1 {
-  color: green;
-}
-
-.tituloInicio p {
-  font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
-
+/************************ ESTILOS PARA PAGINA DE INICIO ************************/
 .staffInicio {
   border: 1px solid black;
   margin: 10px 10px 0px 10px;
   padding: 10px 10px 0px 10px;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .staffInicio p {
   font-family: "Satisfy", cursive;
-  font-size: 1.15rem;
-}
+  font-size: 1.15rem; }
 
 .servicioInicio {
   border: 1px solid black;
   margin: 10px;
   padding: 10px;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .servicioInicio p {
   font-family: "Satisfy", cursive;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .imagenCarousel {
   height: 300px;
-  object-fit: contain;
-}
+  object-fit: contain; }
 
 .clientesInicio {
   border: 1px solid black;
   margin: 10px;
   padding: 10px;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .clientesInicio h2 {
-  font-size: 40px;
-}
+  font-size: 40px; }
 
 .clientesInicio img {
   width: 200px;
   height: 90px;
-  object-fit: contain;
-}
+  object-fit: contain; }
 
 .clientesInicio li {
   list-style-type: none;
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 /************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
-
 .tituloNosotros {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .tituloNosotros h1 {
-  color: green;
-}
+  color: green; }
 
 .tituloNosotros p {
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .parrafoNosotros {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .parrafoNosotros p {
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .parrafoNosotros div {
   border: 1px solid black;
   padding: 10px;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .clientesNosotros {
   margin: 10px;
   padding: 10px;
   border: 1px solid black;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .clientesNosotros h2 {
-  font-size: 40px;
-}
+  font-size: 40px; }
 
 .clientesNosotros img {
   width: 200px;
   height: 90px;
-  object-fit: contain;
-}
+  object-fit: contain; }
 
 .clientesNosotros li {
   list-style-type: none;
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 /************************ ESTILOS PARA PAGINA SERVICIOS ************************/
-
 .tituloServicios {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .tituloServicios h1 {
-  color: green;
-}
+  color: green; }
 
 .tituloServicios p {
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .tareasServicios {
   border: 1px black solid;
   background-color: ghostwhite;
   margin: 10px;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .tareasServicios img {
   display: inline-block;
   width: 350px;
   height: 200px;
-  object-fit: contain;
-}
+  object-fit: contain; }
 
 .tareasServicios h2 {
   color: black;
-  font-size: 32px;
-}
+  font-size: 32px; }
 
 .tareasServicios h3 {
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .tareasServicios p {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .tituloEjServicios {
   border: 2px black solid;
   margin: 10px;
   padding: 10px;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .tituloEjServicios h2 {
-  font-size: 32px;
-}
+  font-size: 32px; }
 
 .ejServicios iframe {
-  width: 400px;
-}
+  width: 400px; }
 
 .ejServicios p {
   margin: 10px;
   font-size: 1.25rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
-
 .tituloNoticias {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .tituloNoticias h1 {
-  color: green;
-}
+  color: green; }
 
 .tituloNoticias p {
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .noticia {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .noticia p {
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .noticia img {
   height: 200px;
-  margin: 10px;
-}
+  margin: 10px; }
 
 /************************ ESTILOS PARA PAGINA CONTACTO ************************/
-
 .tituloContacto {
   border: 1px black solid;
   margin: 10px;
   padding: 10px;
   text-align: center;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .tituloContacto h1 {
-  color: green;
-}
+  color: green; }
 
 .tituloContacto p {
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .formularioContacto {
   padding: 10px;
   margin: 10px;
   border: 1px black solid;
   background-color: ghostwhite;
-  text-align: center;
-}
+  text-align: center; }
 
 .listaContacto {
-  display: inline-block;
-}
+  display: inline-block; }
 
 .listaContacto ul {
   margin: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
 
 .listaContacto li {
   list-style-type: none;
   font-family: "Satisfy", cursive;
-  padding-bottom: 10px;
-}
+  padding-bottom: 10px; }
 
 .listaContacto p {
   display: inline-block;
   width: 170px;
   margin: 0px;
   padding: 0px;
-  font-size: 1.15rem;
-}
+  font-size: 1.15rem; }
 
 .formBotonContacto {
-  padding-top: 20px;
-}
+  padding-top: 20px; }
 
 .formBotonContacto input {
   font-size: 1.15rem;
   width: 120px;
-  font-family: "Satisfy", cursive;
-}
+  font-family: "Satisfy", cursive; }
 
 .mapaContacto {
   margin: 10px;
   padding: 10px;
   border: 1px solid black;
   text-align: center;
-  background-color: ghostwhite;
-}
+  background-color: ghostwhite; }
 
 .mapaContacto h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  text-align: center;
-}
+  text-align: center; }
 
 .mapaContacto iframe {
   display: inline-block;
   width: 350px;
-  height: 350px;
-}
+  height: 350px; }
 
 /************************ MEDIA QUERY PARA ADAPTAR IMAGENES A PANTALLAS MAS CHICAS ************************/
-
 @media (max-width: 860px) {
   .tituloNosotros img {
     width: 280px;
-    object-fit: contain;
-  }
-
+    object-fit: contain; }
   .parrafoNosotros img {
     width: 280px;
-    object-fit: contain;
-  }
-
+    object-fit: contain; }
   .tareasServicios img {
-    width: 280px;
-  }
-
+    width: 280px; }
   .ejServicios iframe {
     width: 280px;
-    height: 200px;
-  }
-
+    height: 200px; }
   .noticia img {
     width: 280px;
-    object-fit: contain;
-  }
-
+    object-fit: contain; }
   .mapaContacto iframe {
     width: 280px;
-    height: 280px;
-  }
-}
+    height: 280px; } }

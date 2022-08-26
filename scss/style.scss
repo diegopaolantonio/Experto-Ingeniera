@@ -1,104 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-  
-  /************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
-  
-  body {
-    background-color: #c9f8c3;
-  }
-  
-  .encabezado {
-    padding: 15px;
-  }
-  
-  .logoImg {
-    width: 35px;
-    height: 35px;
-    margin-right: 5px;
-  }
-  
-  .navegacion li {
-    text-align: right;
-  }
-  
-  .navegacion li:hover {
-    font-size: 1.25rem;
-    transition: all 0.5s;
-  }
-  
-  .navegacion a:hover {
-    color: darkgreen;
-  }
-  
-  .enlaceMail {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-  }
-  
-  .enlaceMail img {
-    height: 60px;
-    width: 60px;
-  }
-  
-  .footerInicio {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgb(202, 202, 255);
-  }
-  
-  .footerInicio h3 {
-    font-size: 1rem;
-  }
-  
-  .redes {
-    text-align: right;
-    margin-right: 80px;
-  }
-  
-  .redes li {
-    display: inline;
-  }
-  
-  .redes img {
-    width: 30px;
-  }
-  
-  .footerInicio p {
-    font-size: 1rem;
-    margin: 0px;
-    color: rgb(255, 58, 58);
-  }
-  
-  /* Clase creada para quitar margenes de bootstrap */
-  .nuevaClase {
-    margin: 0px;
-    padding: 0px;
-  }
+
+  @import "variables";
+  @import "headerFooter";
+  @import "titulo";
+
+  //@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
   
   /************************ ESTILOS PARA PAGINA DE INICIO ************************/
-  
-  .tituloInicio {
-    border: 1px black solid;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    background-color: ghostwhite;
-  }
-  
-  .tituloInicio h1 {
-    color: green;
-  }
-  
-  .tituloInicio p {
-    font-size: 1.15rem;
-    font-family: "Satisfy", cursive;
-  }
   
   .staffInicio {
     border: 1px solid black;

@@ -1,0 +1,87 @@
+/************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: #c9f8c3;
+}
+
+header {
+    padding: 15px;
+
+    Img {
+        width: 35px;
+        height: 35px;
+        margin-right: 5px;
+    }
+
+    ul {
+
+        li {
+            text-align: right;
+  
+            &:hover {
+                font-size: 1.25rem;
+                transition: all 0.5s;
+            }
+        }
+    }
+    
+    .enlace {
+        a {
+            &:hover {
+                color: darkgreen;
+            }
+        }    
+    }
+}        
+
+.enlaceMail {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    img {
+        height: 60px;
+        width: 60px;
+    }
+}
+  
+footer {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(202, 202, 255);
+
+    .redes {
+        text-align: right;
+        margin-right: 80px;
+
+        h3 {
+            font-size: 1rem;
+        }
+    
+        li {
+            display: inline;
+  
+            img {
+                width: 30px;
+            }
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        margin: 0px;
+        color: rgb(255, 58, 58);
+    }
+}
+
+/* Clase creada para quitar margenes de bootstrap */
+.nuevaClase {
+    margin: 0px;
+    padding: 0px;
+}
