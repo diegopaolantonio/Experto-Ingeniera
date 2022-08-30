@@ -1,7 +1,9 @@
+/* ESTILO BLOQUE DE TITULO DE LOS 5 HTMLS */
+
 .titulo {
-    border: 1px black solid;
-    margin: 10px;
-    padding: 10px;
+    border: $bordesBloques;
+    margin: $margenBloques;
+    padding: $paddingBloques;
     text-align: center;
     background-color: ghostwhite;
   
@@ -11,6 +13,6 @@
   
     p {
         font-size: $tamFuenteParrafo;
-        font-family: "Satisfy", cursive;
+        font-family: $fuenteCuerpo;
     }
 }

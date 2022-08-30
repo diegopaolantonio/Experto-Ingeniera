@@ -9,26 +9,26 @@
   /************************ ESTILOS PARA PAGINA DE INICIO ************************/
   
   .staffInicio {
-    border: 1px solid black;
+    border: $bordesBloques;
     margin: 10px 10px 0px 10px;
     padding: 10px 10px 0px 10px;
     background-color: ghostwhite;
   
     p {
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
       font-size: $tamFuenteParrafo;
     }
 
   }
   
   .servicioInicio {
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
+    border: $bordesBloques;
+    margin: $margenBloques;
+    padding: $paddingBloques;
     background-color: ghostwhite;
   
     p {
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
       font-size: 20px;
     }
 
@@ -42,18 +42,18 @@
   /************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
   
   .parrafoNosotros {
-    border: 1px black solid;
-    margin: 10px;
-    padding: 10px;
+    border: $bordesBloques;
+    margin: $margenBloques;
+    padding: $paddingBloques;
     background-color: ghostwhite;
   
     p {
       font-size: $tamFuenteParrafo;
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
     }
   
     div {
-      border: 1px solid black;
+      border: $bordesBloques;
       padding: 10px;
       background-color: ghostwhite;
     }
@@ -63,10 +63,10 @@
   /************************ ESTILOS PARA PAGINA SERVICIOS ************************/
   
   .tareasServicios {
-    border: 1px black solid;
+    border: $bordesBloques;
     background-color: ghostwhite;
-    margin: 10px;
-    padding: 10px;
+    margin: $margenBloques;
+    padding: $paddingBloques;
   
     img {
       display: inline-block;
@@ -89,7 +89,7 @@
       padding: 0px;
       margin: 0px;
       font-size: $tamFuenteParrafo;
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
     }
 
   }
@@ -103,7 +103,7 @@
     p {
       margin: 10px;
       font-size: $tamFuenteParrafo;
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
     }
 
   }
@@ -111,14 +111,14 @@
   /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
   
   .noticia {
-    border: 1px black solid;
-    margin: 10px;
-    padding: 10px;
+    border: $bordesBloques;
+    margin: $margenBloques;
+    padding: $paddingBloques;
     background-color: ghostwhite;
   
     p {
       font-size: $tamFuenteParrafo;
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
     }
   
     img {
@@ -131,9 +131,9 @@
   /************************ ESTILOS PARA PAGINA CONTACTO ************************/
   
   .formularioContacto {
-    padding: 10px;
-    margin: 10px;
-    border: 1px black solid;
+    padding: $paddingBloques;
+    margin: $margenBloques;
+    border: $bordesBloques;
     background-color: ghostwhite;
     text-align: center;
   }
@@ -148,7 +148,7 @@
   
     li {
       list-style-type: none;
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
       padding-bottom: 10px;
     }
   
@@ -168,15 +168,15 @@
     input {
       font-size: $tamFuenteParrafo;
       width: 120px;
-      font-family: "Satisfy", cursive;
+      font-family: $fuenteCuerpo;
     }
 
   }
 
   .mapaContacto {
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
+    margin: $margenBloques;
+    padding: $paddingBloques;
+    border: $bordesBloques;
     text-align: center;
     background-color: ghostwhite;
   
