@@ -34,6 +34,7 @@ header {
 /* FOOTER */
 footer {
   border: 2px solid black;
+  border-radius: 7px;
   margin: 10px;
   padding: 10px;
   background-color: #cacaff; }
@@ -59,6 +60,7 @@ footer {
 /* ESTILO BLOQUE DE TITULO DE LOS 5 HTMLS */
 .titulo {
   border: 2px solid black;
+  border-radius: 7px;
   margin: 10px;
   padding: 10px;
   text-align: center;
@@ -72,6 +74,7 @@ footer {
 /* ESTILO BLOQUE DE CLIENTES */
 .clientes {
   border: 2px solid black;
+  border-radius: 7px;
   margin: 10px;
   padding: 10px;
   background-color: ghostwhite; }
@@ -89,6 +92,7 @@ footer {
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 .staffInicio {
   border: 2px solid black;
+  border-radius: 7px;
   margin: 10px 10px 0px 10px;
   padding: 10px 10px 0px 10px;
   background-color: ghostwhite; }
@@ -98,6 +102,7 @@ footer {
 
 .servicioInicio {
   border: 2px solid black;
+  border-radius: 7px;
   margin: 10px;
   padding: 10px;
   background-color: ghostwhite; }
@@ -112,6 +117,7 @@ footer {
 /************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
 .parrafoNosotros {
   border: 2px solid black;
+  border-radius: 7px;
   margin: 10px;
   padding: 10px;
   background-color: ghostwhite; }
@@ -120,12 +126,14 @@ footer {
     font-family: "Satisfy", cursive; }
   .parrafoNosotros div {
     border: 2px solid black;
+    border-radius: 7px;
     padding: 10px;
     background-color: ghostwhite; }
 
 /************************ ESTILOS PARA PAGINA SERVICIOS ************************/
 .tareasServicios {
   border: 2px solid black;
+  border-radius: 7px;
   background-color: ghostwhite;
   margin: 10px;
   padding: 10px; }
@@ -157,6 +165,7 @@ footer {
 /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
 .noticia {
   border: 2px solid black;
+  border-radius: 7px;
   margin: 10px;
   padding: 10px;
   background-color: ghostwhite; }
@@ -172,6 +181,7 @@ footer {
   padding: 10px;
   margin: 10px;
   border: 2px solid black;
+  border-radius: 7px;
   background-color: ghostwhite;
   text-align: center; }
 
@@ -202,6 +212,7 @@ footer {
   margin: 10px;
   padding: 10px;
   border: 2px solid black;
+  border-radius: 7px;
   text-align: center;
   background-color: ghostwhite; }
   .mapaContacto h2 {

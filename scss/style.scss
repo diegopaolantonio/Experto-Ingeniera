@@ -10,6 +10,7 @@
   
   .staffInicio {
     border: $bordesBloques;
+    border-radius: $redondeoBordes;
     margin: 10px 10px 0px 10px;
     padding: 10px 10px 0px 10px;
     background-color: ghostwhite;
@@ -23,6 +24,7 @@
   
   .servicioInicio {
     border: $bordesBloques;
+    border-radius: $redondeoBordes;
     margin: $margenBloques;
     padding: $paddingBloques;
     background-color: ghostwhite;
@@ -43,6 +45,7 @@
   
   .parrafoNosotros {
     border: $bordesBloques;
+    border-radius: $redondeoBordes;
     margin: $margenBloques;
     padding: $paddingBloques;
     background-color: ghostwhite;
@@ -54,6 +57,7 @@
   
     div {
       border: $bordesBloques;
+      border-radius: $redondeoBordes;
       padding: 10px;
       background-color: ghostwhite;
     }
@@ -64,6 +68,7 @@
   
   .tareasServicios {
     border: $bordesBloques;
+    border-radius: $redondeoBordes;
     background-color: ghostwhite;
     margin: $margenBloques;
     padding: $paddingBloques;
@@ -112,6 +117,7 @@
   
   .noticia {
     border: $bordesBloques;
+    border-radius: $redondeoBordes;
     margin: $margenBloques;
     padding: $paddingBloques;
     background-color: ghostwhite;
@@ -134,6 +140,7 @@
     padding: $paddingBloques;
     margin: $margenBloques;
     border: $bordesBloques;
+    border-radius: $redondeoBordes;
     background-color: ghostwhite;
     text-align: center;
   }
@@ -177,6 +184,7 @@
     margin: $margenBloques;
     padding: $paddingBloques;
     border: $bordesBloques;
+    border-radius: $redondeoBordes;
     text-align: center;
     background-color: ghostwhite;
   
