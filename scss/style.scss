@@ -1,36 +1,44 @@
-
+  
+  //@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+  
   @import "variables";
+  @import "estiloBloques";
   @import "headerFooter";
   @import "titulo";
   @import "clientes";
 
-  //@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
   
   /************************ ESTILOS PARA PAGINA DE INICIO ************************/
   
   .staffInicio {
-    border: $bordesBloques;
-    border-radius: $redondeoBordes;
+    @extend .estiloBloques;
+  //  border: map-get($estiloGral, bordesBloques);
+  //  border-radius: map-get($estiloGral, redondeoBordes);
     margin: 10px 10px 0px 10px;
     padding: 10px 10px 0px 10px;
-    background-color: ghostwhite;
+  //  background-color: ghostwhite;
   
     p {
-      font-family: $fuenteCuerpo;
-      font-size: $tamFuenteParrafo;
+      @include fuenteParrafo;
+//      font-family: map-get($fuenteGral, fuenteCuerpo);
+//      font-size: map-get($fuenteGral, tamFuenteParrafo);
+//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
 
   }
   
   .servicioInicio {
-    border: $bordesBloques;
-    border-radius: $redondeoBordes;
-    margin: $margenBloques;
-    padding: $paddingBloques;
-    background-color: ghostwhite;
+    @extend .estiloBloques;
+  //  border: map-get($estiloGral, bordesBloques);
+  //  border-radius: map-get($estiloGral, redondeoBordes);
+  //  margin: map-get($estiloGral, margenBloques);
+  //  padding: map-get($estiloGral, paddingBloques);
+  //  background-color: ghostwhite;
   
     p {
-      font-family: $fuenteCuerpo;
+      font-family: map-get($fuenteGral, fuenteCuerpo);
+      font-style: map-get($fuenteGral , fuenteEstilo);
       font-size: 20px;
     }
 
@@ -44,22 +52,25 @@
   /************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
   
   .parrafoNosotros {
-    border: $bordesBloques;
-    border-radius: $redondeoBordes;
-    margin: $margenBloques;
-    padding: $paddingBloques;
-    background-color: ghostwhite;
+    @extend .estiloBloques;
+  //  border: map-get($estiloGral, bordesBloques);
+  //  border-radius: map-get($estiloGral, redondeoBordes);
+  //  margin: map-get($estiloGral, margenBloques);
+  //  padding: map-get($estiloGral, paddingBloques);
+  //  background-color: ghostwhite;
   
     p {
-      font-size: $tamFuenteParrafo;
-      font-family: $fuenteCuerpo;
+      @include fuenteParrafo;
+//      font-size: map-get($fuenteGral, tamFuenteParrafo);
+//      font-family: map-get($fuenteGral, fuenteCuerpo);
+//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
   
     div {
-      border: $bordesBloques;
-      border-radius: $redondeoBordes;
+      border: map-get($estiloGral, bordesBloques);
+      border-radius: map-get($estiloGral, redondeoBordes);
       padding: 10px;
-      background-color: ghostwhite;
+      background-color: map-get($estiloGral, colorFondo);
     }
   
   }
@@ -67,11 +78,12 @@
   /************************ ESTILOS PARA PAGINA SERVICIOS ************************/
   
   .tareasServicios {
-    border: $bordesBloques;
-    border-radius: $redondeoBordes;
-    background-color: ghostwhite;
-    margin: $margenBloques;
-    padding: $paddingBloques;
+    @extend .estiloBloques;
+  //  border: map-get($estiloGral, bordesBloques);
+  //  border-radius: map-get($estiloGral, redondeoBordes);
+  //  margin: map-get($estiloGral, margenBloques);
+  //  padding: map-get($estiloGral, paddingBloques);
+  //  background-color: ghostwhite;
   
     img {
       display: inline-block;
@@ -93,8 +105,10 @@
       list-style-type: none;
       padding: 0px;
       margin: 0px;
-      font-size: $tamFuenteParrafo;
-      font-family: $fuenteCuerpo;
+      @include fuenteParrafo;
+//      font-size: map-get($fuenteGral, tamFuenteParrafo);
+//      font-family: map-get($fuenteGral, fuenteCuerpo);
+//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
 
   }
@@ -107,8 +121,10 @@
   
     p {
       margin: 10px;
-      font-size: $tamFuenteParrafo;
-      font-family: $fuenteCuerpo;
+      @include fuenteParrafo;
+//      font-size: map-get($fuenteGral, tamFuenteParrafo);
+//      font-family: map-get($fuenteGral, fuenteCuerpo);
+//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
 
   }
@@ -116,15 +132,18 @@
   /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
   
   .noticia {
-    border: $bordesBloques;
-    border-radius: $redondeoBordes;
-    margin: $margenBloques;
-    padding: $paddingBloques;
-    background-color: ghostwhite;
+    @extend .estiloBloques;
+//    border: map-get($estiloGral, bordesBloques);
+//    border-radius: map-get($estiloGral, redondeoBordes);
+//    margin: map-get($estiloGral, margenBloques);
+//    padding: map-get($estiloGral, paddingBloques);
+//    background-color: map-get($estiloGral, colorFondo);
   
     p {
-      font-size: $tamFuenteParrafo;
-      font-family: $fuenteCuerpo;
+      @include fuenteParrafo;
+//      font-size: map-get($fuenteGral, tamFuenteParrafo);
+//      font-family: map-get($fuenteGral, fuenteCuerpo);
+//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
   
     img {
@@ -137,11 +156,12 @@
   /************************ ESTILOS PARA PAGINA CONTACTO ************************/
   
   .formularioContacto {
-    padding: $paddingBloques;
-    margin: $margenBloques;
-    border: $bordesBloques;
-    border-radius: $redondeoBordes;
-    background-color: ghostwhite;
+    @extend .estiloBloques;
+  //  border: map-get($estiloGral, bordesBloques);
+  //  border-radius: map-get($estiloGral, redondeoBordes);
+  //  margin: map-get($estiloGral, margenBloques);
+  //  padding: map-get($estiloGral, paddingBloques);
+  //  background-color: ghostwhite;
     text-align: center;
   }
   
@@ -155,7 +175,8 @@
   
     li {
       list-style-type: none;
-      font-family: $fuenteCuerpo;
+      font-family: map-get($fuenteGral, fuenteCuerpo);
+      font-style: map-get($fuenteGral , fuenteEstilo);
       padding-bottom: 10px;
     }
   
@@ -164,7 +185,7 @@
       width: 170px;
       margin: 0px;
       padding: 0px;
-      font-size: $tamFuenteParrafo;
+      font-size: map-get($fuenteGral, tamFuenteParrafo);
     }
 
   } 
@@ -173,20 +194,23 @@
     padding-top: 20px;
   
     input {
-      font-size: $tamFuenteParrafo;
+      @include fuenteParrafo;
+//      font-size: map-get($fuenteGral, tamFuenteParrafo);
+//      font-family: map-get($fuenteGral, fuenteCuerpo);
+//      font-style: map-get($fuenteGral , fuenteEstilo);
       width: 120px;
-      font-family: $fuenteCuerpo;
     }
 
   }
 
   .mapaContacto {
-    margin: $margenBloques;
-    padding: $paddingBloques;
-    border: $bordesBloques;
-    border-radius: $redondeoBordes;
+    @extend .estiloBloques;
+//    border: map-get($estiloGral, bordesBloques);
+//    border-radius: map-get($estiloGral, redondeoBordes);
+//    margin: map-get($estiloGral, margenBloques);
+//    padding: map-get($estiloGral, paddingBloques);
+//    background-color: ghostwhite;
     text-align: center;
-    background-color: ghostwhite;
   
     h2 {
       font-size: 2rem;

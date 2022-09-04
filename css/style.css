@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+/*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
+.estiloBloques, footer, .titulo, .clientes, .staffInicio, .servicioInicio, .parrafoNosotros, .tareasServicios, .noticia, .formularioContacto, .mapaContacto {
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite; }
+
 /************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
 /* RESET MARGIN Y PADDING, Y COLOR DE FONDO */
 * {
@@ -33,10 +42,6 @@ header {
 
 /* FOOTER */
 footer {
-  border: 2px solid black;
-  border-radius: 7px;
-  margin: 10px;
-  padding: 10px;
   background-color: #cacaff; }
   footer .redes {
     text-align: right;
@@ -59,100 +64,80 @@ footer {
 
 /* ESTILO BLOQUE DE TITULO DE LOS 5 HTMLS */
 .titulo {
-  border: 2px solid black;
-  border-radius: 7px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  background-color: ghostwhite; }
+  text-align: center; }
   .titulo h1 {
     color: green; }
   .titulo p {
     font-size: 1.15rem;
-    font-family: "Satisfy", cursive; }
+    font-family: "Lobster Two";
+    font-style: italic; }
 
 /* ESTILO BLOQUE DE CLIENTES */
-.clientes {
-  border: 2px solid black;
-  border-radius: 7px;
-  margin: 10px;
-  padding: 10px;
-  background-color: ghostwhite; }
-  .clientes h2 {
-    font-size: 40px; }
-  .clientes img {
-    width: 200px;
-    height: 90px;
-    object-fit: contain; }
-  .clientes li {
-    list-style-type: none;
-    font-size: 1.15rem;
-    font-family: "Satisfy", cursive; }
+.clientes h2 {
+  font-size: 40px; }
+
+.clientes img {
+  width: 200px;
+  height: 90px;
+  object-fit: contain; }
+
+.clientes li {
+  list-style-type: none;
+  font-size: 1.15rem;
+  font-family: "Lobster Two";
+  font-style: italic; }
 
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 .staffInicio {
-  border: 2px solid black;
-  border-radius: 7px;
   margin: 10px 10px 0px 10px;
-  padding: 10px 10px 0px 10px;
-  background-color: ghostwhite; }
+  padding: 10px 10px 0px 10px; }
   .staffInicio p {
-    font-family: "Satisfy", cursive;
-    font-size: 1.15rem; }
+    font-size: 1.15rem;
+    font-family: "Lobster Two";
+    font-style: italic; }
 
-.servicioInicio {
-  border: 2px solid black;
-  border-radius: 7px;
-  margin: 10px;
-  padding: 10px;
-  background-color: ghostwhite; }
-  .servicioInicio p {
-    font-family: "Satisfy", cursive;
-    font-size: 20px; }
+.servicioInicio p {
+  font-family: "Lobster Two";
+  font-style: italic;
+  font-size: 20px; }
 
 .imagenCarousel {
   height: 300px;
   object-fit: contain; }
 
 /************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
-.parrafoNosotros {
+.parrafoNosotros p {
+  font-size: 1.15rem;
+  font-family: "Lobster Two";
+  font-style: italic; }
+
+.parrafoNosotros div {
   border: 2px solid black;
   border-radius: 7px;
-  margin: 10px;
   padding: 10px;
   background-color: ghostwhite; }
-  .parrafoNosotros p {
-    font-size: 1.15rem;
-    font-family: "Satisfy", cursive; }
-  .parrafoNosotros div {
-    border: 2px solid black;
-    border-radius: 7px;
-    padding: 10px;
-    background-color: ghostwhite; }
 
 /************************ ESTILOS PARA PAGINA SERVICIOS ************************/
-.tareasServicios {
-  border: 2px solid black;
-  border-radius: 7px;
-  background-color: ghostwhite;
-  margin: 10px;
-  padding: 10px; }
-  .tareasServicios img {
-    display: inline-block;
-    width: 350px;
-    height: 200px;
-    object-fit: contain; }
-  .tareasServicios h2 {
-    color: black;
-    font-size: 32px; }
-  .tareasServicios h3 {
-    margin-top: 15px; }
-  .tareasServicios p {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    font-size: 1.15rem;
-    font-family: "Satisfy", cursive; }
+.tareasServicios img {
+  display: inline-block;
+  width: 350px;
+  height: 200px;
+  object-fit: contain; }
+
+.tareasServicios h2 {
+  color: black;
+  font-size: 32px; }
+
+.tareasServicios h3 {
+  margin-top: 15px; }
+
+.tareasServicios p {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.15rem;
+  font-family: "Lobster Two";
+  font-style: italic; }
 
 .ejServicios iframe {
   width: 400px; }
@@ -160,29 +145,21 @@ footer {
 .ejServicios p {
   margin: 10px;
   font-size: 1.15rem;
-  font-family: "Satisfy", cursive; }
+  font-family: "Lobster Two";
+  font-style: italic; }
 
 /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
-.noticia {
-  border: 2px solid black;
-  border-radius: 7px;
-  margin: 10px;
-  padding: 10px;
-  background-color: ghostwhite; }
-  .noticia p {
-    font-size: 1.15rem;
-    font-family: "Satisfy", cursive; }
-  .noticia img {
-    height: 200px;
-    margin: 10px; }
+.noticia p {
+  font-size: 1.15rem;
+  font-family: "Lobster Two";
+  font-style: italic; }
+
+.noticia img {
+  height: 200px;
+  margin: 10px; }
 
 /************************ ESTILOS PARA PAGINA CONTACTO ************************/
 .formularioContacto {
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid black;
-  border-radius: 7px;
-  background-color: ghostwhite;
   text-align: center; }
 
 .listaContacto {
@@ -192,7 +169,8 @@ footer {
     padding: 0px; }
   .listaContacto li {
     list-style-type: none;
-    font-family: "Satisfy", cursive;
+    font-family: "Lobster Two";
+    font-style: italic;
     padding-bottom: 10px; }
   .listaContacto p {
     display: inline-block;
@@ -205,16 +183,12 @@ footer {
   padding-top: 20px; }
   .formBotonContacto input {
     font-size: 1.15rem;
-    width: 120px;
-    font-family: "Satisfy", cursive; }
+    font-family: "Lobster Two";
+    font-style: italic;
+    width: 120px; }
 
 .mapaContacto {
-  margin: 10px;
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 7px;
-  text-align: center;
-  background-color: ghostwhite; }
+  text-align: center; }
   .mapaContacto h2 {
     font-size: 2rem;
     margin-bottom: 10px;

@@ -1,0 +1,9 @@
+/*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
+
+.estiloBloques {
+    border: map-get($estiloGral, bordesBloques);
+    border-radius: map-get($estiloGral, redondeoBordes);
+    margin: map-get($estiloGral, margenBloques);
+    padding: map-get($estiloGral, paddingBloques);
+    background-color: map-get($estiloGral, colorFondo);
+}

@@ -1,6 +1,10 @@
-$tamFuenteParrafo: 1.15rem;
-$margenBloques: 10px;
-$paddingBloques: 10px;
-$fuenteCuerpo: "Satisfy", cursive;
-$bordesBloques: 2px solid black;
-$redondeoBordes: 7px;
+$estiloGral: (bordesBloques: 2px solid black, redondeoBordes: 7px, margenBloques: 10px, paddingBloques: 10px, colorFondo: ghostwhite);
+$fuenteGral: (tamFuenteParrafo: 1.15rem, fuenteCuerpo: "Lobster Two", fuenteEstilo: italic);
+
+@mixin fuenteParrafo {
+//    font-size: 1.15rem;
+//    font-family: 'Lobster Two', cursive;
+    font-size: map-get($fuenteGral, tamFuenteParrafo);
+    font-family: map-get($fuenteGral, fuenteCuerpo);
+    font-style: map-get($fuenteGral , fuenteEstilo);
+}
