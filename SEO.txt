@@ -1,0 +1,4 @@
+Modifique H3 por H2 en CARD de BOOTSTRAP con mi descripcion.
+Color de fondo de Footer por un color mas claro para mejorar el contraste con lo escrito y puse texto en negritas.
+Elimine imagenes inecesarias.
+Cambie el tamaño de las imagenes, quite metadatos de las imagenes.

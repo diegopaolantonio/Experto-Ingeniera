@@ -64,7 +64,7 @@ footer {
 //    border-radius: map-get($estiloGral, redondeoBordes);
 //    margin: map-get($estiloGral, margenBloques);
 //    padding: map-get($estiloGral, paddingBloques);
-    background-color: rgb(202, 202, 255);
+//    background-color: rgb(202, 202, 255);
 
     .redes {
         text-align: right;
@@ -77,16 +77,17 @@ footer {
         li {
             display: inline;
   
-            img {
-                width: 30px;
-            }
+//            img {
+//                width: 30px;
+//            }
         }
     }
 
     p {
         font-size: 1rem;
+        font-weight: bold;
         margin: 0px;
-        color: rgb(255, 58, 58);
+        color: blue;
     }
 }
 

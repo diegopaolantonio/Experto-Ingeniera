@@ -41,21 +41,19 @@ header {
     width: 60px; }
 
 /* FOOTER */
-footer {
-  background-color: #cacaff; }
-  footer .redes {
-    text-align: right;
-    margin-right: 80px; }
-    footer .redes h3 {
-      font-size: 1rem; }
-    footer .redes li {
-      display: inline; }
-      footer .redes li img {
-        width: 30px; }
-  footer p {
-    font-size: 1rem;
-    margin: 0px;
-    color: #ff3a3a; }
+footer .redes {
+  text-align: right;
+  margin-right: 80px; }
+  footer .redes h3 {
+    font-size: 1rem; }
+  footer .redes li {
+    display: inline; }
+
+footer p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0px;
+  color: blue; }
 
 /* Clase creada para quitar margenes de bootstrap */
 .nuevaClase {
@@ -91,6 +89,9 @@ footer {
 .staffInicio {
   margin: 10px 10px 0px 10px;
   padding: 10px 10px 0px 10px; }
+  .staffInicio img {
+    width: 283px;
+    object-fit: contain; }
   .staffInicio p {
     font-size: 1.15rem;
     font-family: "Lobster Two";
