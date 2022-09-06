@@ -1,9 +1,7 @@
   
-  //@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
   @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
   
   @import "variables";
-  @import "estiloBloques";
   @import "headerFooter";
   @import "titulo";
   @import "clientes";
@@ -13,11 +11,8 @@
   
   .staffInicio {
     @extend .estiloBloques;
-  //  border: map-get($estiloGral, bordesBloques);
-  //  border-radius: map-get($estiloGral, redondeoBordes);
     margin: 10px 10px 0px 10px;
     padding: 10px 10px 0px 10px;
-  //  background-color: ghostwhite;
 
     img {
       width: 283px;
@@ -26,20 +21,12 @@
   
     p {
       @include fuenteParrafo;
-//      font-family: map-get($fuenteGral, fuenteCuerpo);
-//      font-size: map-get($fuenteGral, tamFuenteParrafo);
-//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
 
   }
   
   .servicioInicio {
     @extend .estiloBloques;
-  //  border: map-get($estiloGral, bordesBloques);
-  //  border-radius: map-get($estiloGral, redondeoBordes);
-  //  margin: map-get($estiloGral, margenBloques);
-  //  padding: map-get($estiloGral, paddingBloques);
-  //  background-color: ghostwhite;
   
     p {
       font-family: map-get($fuenteGral, fuenteCuerpo);
@@ -58,17 +45,9 @@
   
   .parrafoNosotros {
     @extend .estiloBloques;
-  //  border: map-get($estiloGral, bordesBloques);
-  //  border-radius: map-get($estiloGral, redondeoBordes);
-  //  margin: map-get($estiloGral, margenBloques);
-  //  padding: map-get($estiloGral, paddingBloques);
-  //  background-color: ghostwhite;
   
     p {
       @include fuenteParrafo;
-//      font-size: map-get($fuenteGral, tamFuenteParrafo);
-//      font-family: map-get($fuenteGral, fuenteCuerpo);
-//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
   
     div {
@@ -84,11 +63,6 @@
   
   .tareasServicios {
     @extend .estiloBloques;
-  //  border: map-get($estiloGral, bordesBloques);
-  //  border-radius: map-get($estiloGral, redondeoBordes);
-  //  margin: map-get($estiloGral, margenBloques);
-  //  padding: map-get($estiloGral, paddingBloques);
-  //  background-color: ghostwhite;
   
     img {
       display: inline-block;
@@ -111,9 +85,6 @@
       padding: 0px;
       margin: 0px;
       @include fuenteParrafo;
-//      font-size: map-get($fuenteGral, tamFuenteParrafo);
-//      font-family: map-get($fuenteGral, fuenteCuerpo);
-//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
 
   }
@@ -127,9 +98,6 @@
     p {
       margin: 10px;
       @include fuenteParrafo;
-//      font-size: map-get($fuenteGral, tamFuenteParrafo);
-//      font-family: map-get($fuenteGral, fuenteCuerpo);
-//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
 
   }
@@ -138,17 +106,9 @@
   
   .noticia {
     @extend .estiloBloques;
-//    border: map-get($estiloGral, bordesBloques);
-//    border-radius: map-get($estiloGral, redondeoBordes);
-//    margin: map-get($estiloGral, margenBloques);
-//    padding: map-get($estiloGral, paddingBloques);
-//    background-color: map-get($estiloGral, colorFondo);
   
     p {
       @include fuenteParrafo;
-//      font-size: map-get($fuenteGral, tamFuenteParrafo);
-//      font-family: map-get($fuenteGral, fuenteCuerpo);
-//      font-style: map-get($fuenteGral , fuenteEstilo);
     }
   
     img {
@@ -162,11 +122,6 @@
   
   .formularioContacto {
     @extend .estiloBloques;
-  //  border: map-get($estiloGral, bordesBloques);
-  //  border-radius: map-get($estiloGral, redondeoBordes);
-  //  margin: map-get($estiloGral, margenBloques);
-  //  padding: map-get($estiloGral, paddingBloques);
-  //  background-color: ghostwhite;
     text-align: center;
   }
   
@@ -200,9 +155,6 @@
   
     input {
       @include fuenteParrafo;
-//      font-size: map-get($fuenteGral, tamFuenteParrafo);
-//      font-family: map-get($fuenteGral, fuenteCuerpo);
-//      font-style: map-get($fuenteGral , fuenteEstilo);
       width: 120px;
     }
 
@@ -210,11 +162,6 @@
 
   .mapaContacto {
     @extend .estiloBloques;
-//    border: map-get($estiloGral, bordesBloques);
-//    border-radius: map-get($estiloGral, redondeoBordes);
-//    margin: map-get($estiloGral, margenBloques);
-//    padding: map-get($estiloGral, paddingBloques);
-//    background-color: ghostwhite;
     text-align: center;
   
     h2 {

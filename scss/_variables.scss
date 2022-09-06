@@ -2,8 +2,6 @@ $estiloGral: (bordesBloques: 2px solid black, redondeoBordes: 7px, margenBloques
 $fuenteGral: (tamFuenteParrafo: 1.15rem, fuenteCuerpo: "Lobster Two", fuenteEstilo: italic);
 
 @mixin fuenteParrafo {
-//    font-size: 1.15rem;
-//    font-family: 'Lobster Two', cursive;
     font-size: map-get($fuenteGral, tamFuenteParrafo);
     font-family: map-get($fuenteGral, fuenteCuerpo);
     font-style: map-get($fuenteGral , fuenteEstilo);

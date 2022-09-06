@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
-/*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
-.estiloBloques, footer, .titulo, .clientes, .staffInicio, .servicioInicio, .parrafoNosotros, .tareasServicios, .noticia, .formularioContacto, .mapaContacto {
-  border: 2px solid black;
-  border-radius: 7px;
-  margin: 10px;
-  padding: 10px;
-  background-color: ghostwhite; }
-
 /************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
 /* RESET MARGIN Y PADDING, Y COLOR DE FONDO */
 * {
@@ -15,6 +7,14 @@
 
 body {
   background-color: #c9f8c3; }
+
+/*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
+.estiloBloques, footer, .titulo, .clientes, .staffInicio, .servicioInicio, .parrafoNosotros, .tareasServicios, .noticia, .formularioContacto, .mapaContacto {
+  border: 2px solid black;
+  border-radius: 7px;
+  margin: 10px;
+  padding: 10px;
+  background-color: ghostwhite; }
 
 /* HEADER */
 header {

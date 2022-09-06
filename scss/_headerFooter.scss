@@ -11,6 +11,16 @@ body {
     background-color: #c9f8c3;
 }
 
+/*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
+
+.estiloBloques {
+    border: map-get($estiloGral, bordesBloques);
+    border-radius: map-get($estiloGral, redondeoBordes);
+    margin: map-get($estiloGral, margenBloques);
+    padding: map-get($estiloGral, paddingBloques);
+    background-color: map-get($estiloGral, colorFondo);
+}
+
 /* HEADER */
 
 header {
@@ -60,11 +70,6 @@ header {
 
 footer {
     @extend .estiloBloques;
-//    border: map-get($estiloGral, bordesBloques);
-//    border-radius: map-get($estiloGral, redondeoBordes);
-//    margin: map-get($estiloGral, margenBloques);
-//    padding: map-get($estiloGral, paddingBloques);
-//    background-color: rgb(202, 202, 255);
 
     .redes {
         text-align: right;
@@ -75,11 +80,7 @@ footer {
         }
     
         li {
-            display: inline;
-  
-//            img {
-//                width: 30px;
-//            }
+            display: inline;  
         }
     }
 

@@ -2,11 +2,6 @@
 
 .clientes {
     @extend .estiloBloques;
-//    border: map-get($estiloGral, bordesBloques);
-//    border-radius: map-get($estiloGral, redondeoBordes);
-//    margin: map-get($estiloGral, margenBloques);
-//    padding: map-get($estiloGral, paddingBloques);
-//    background-color: ghostwhite;
   
     h2 {
         font-size: 40px;
@@ -21,9 +16,6 @@
     li {
         list-style-type: none;
         @include fuenteParrafo;
-//        font-size: 1.15rem;
-//        font-family: map-get($fuenteGral, fuenteCuerpo);
-//        font-style: map-get($fuenteGral , fuenteEstilo);
     }
   
 }
