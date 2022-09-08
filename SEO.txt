@@ -3,3 +3,4 @@ Cambie el color de fondo de Footer por un color mas claro para mejorar el contra
 Elimine imagenes inecesarias por estar repetidas.
 Cambie el tamaño de las imagenes del perfil, logo, y redes sociales.
 Quite metadatos de todas las imagenes.
+Agregue meta description y keywords en los htmls.
