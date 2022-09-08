@@ -24,7 +24,7 @@ body {
 /* HEADER */
 
 header {
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
 
     Img {
         width: 35px;
@@ -70,6 +70,8 @@ header {
 
 footer {
     @extend .estiloBloques;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
 
     .redes {
         text-align: right;

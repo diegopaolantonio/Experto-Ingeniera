@@ -1,4 +1,5 @@
 Modifique H3 por H2 en CARD de BOOTSTRAP con mi descripcion.
-Color de fondo de Footer por un color mas claro para mejorar el contraste con lo escrito y puse texto en negritas.
-Elimine imagenes inecesarias.
-Cambie el tamaño de las imagenes y quite metadatos de las imagenes.
+Cambie el color de fondo de Footer por un color mas claro para mejorar el contraste con lo escrito, y puse texto color azul y en negritas.
+Elimine imagenes inecesarias por estar repetidas.
+Cambie el tamaño de las imagenes del perfil, logo, y redes sociales.
+Quite metadatos de todas las imagenes.

@@ -27,7 +27,7 @@
   
   .servicioInicio {
     @extend .estiloBloques;
-  
+
     p {
       font-family: map-get($fuenteGral, fuenteCuerpo);
       font-style: map-get($fuenteGral , fuenteEstilo);
@@ -45,7 +45,8 @@
   
   .parrafoNosotros {
     @extend .estiloBloques;
-  
+    height: 96%;
+
     p {
       @include fuenteParrafo;
     }
@@ -63,6 +64,7 @@
   
   .tareasServicios {
     @extend .estiloBloques;
+    height: 96%;
   
     img {
       display: inline-block;
@@ -89,15 +91,20 @@
 
   }
 
-  .ejServicios {
+  .bloqueEjServicios {
+    @extend .estiloBloques;
+    .ejServicios {
+      display: inline-block;
 
-    iframe {
-      width: 400px;
-    }
+      iframe {
+        width: 400px;
+        padding-bottom: 5px;
+      }
   
-    p {
-      margin: 10px;
-      @include fuenteParrafo;
+      p {
+        @include fuenteParrafo;
+      }
+    
     }
 
   }
@@ -106,6 +113,7 @@
   
   .noticia {
     @extend .estiloBloques;
+    height: 96%;
   
     p {
       @include fuenteParrafo;
@@ -126,8 +134,8 @@
   }
   
   .listaContacto {
-    display: inline-block;
-  
+    display: inline-block;;
+
     ul {
       margin: 0px;
       padding: 0px;

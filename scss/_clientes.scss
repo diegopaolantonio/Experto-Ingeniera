@@ -2,7 +2,7 @@
 
 .clientes {
     @extend .estiloBloques;
-  
+
     h2 {
         font-size: 40px;
     }
@@ -17,5 +17,5 @@
         list-style-type: none;
         @include fuenteParrafo;
     }
-  
+
 }
