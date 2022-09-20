@@ -1,221 +1,258 @@
-  
-  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
-  
-  @import "variables";
-  @import "headerFooter";
-  @import "titulo";
-  @import "clientes";
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
 
-  
-  /************************ ESTILOS PARA PAGINA DE INICIO ************************/
-  
-  .staffInicio {
-    @extend .estiloBloques;
-    margin: 10px 10px 0px 10px;
-    padding: 10px 10px 0px 10px;
+@import "variables";
+@import "headerFooter";
+@import "titulo";
+@import "clientes";
 
-    img {
-      width: 283px;
-      object-fit: contain;
-    }
-  
-    p {
-      @include fuenteParrafo;
-    }
+/************************ ESTILOS PARA PAGINA DE INICIO ************************/
 
-  }
-  
-  .servicioInicio {
-    @extend .estiloBloques;
+.staffInicio {
+  @extend .estiloBloques;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
 
-    p {
-      font-family: map-get($fuenteGral, fuenteCuerpo);
-      font-style: map-get($fuenteGral , fuenteEstilo);
-      font-size: 20px;
-    }
-
-  }
-  
-  .imagenCarousel {
-    height: 300px;
+  img {
+    width: 283px;
     object-fit: contain;
   }
-  
-  /************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
-  
-  .parrafoNosotros {
-    @extend .estiloBloques;
-    height: 96%;
 
-    p {
-      @include fuenteParrafo;
-    }
-  
-    div {
-      border: map-get($estiloGral, bordesBloques);
-      border-radius: map-get($estiloGral, redondeoBordes);
-      padding: 10px;
-      background-color: map-get($estiloGral, colorFondo);
-    }
-  
+  p {
+    @include fuenteParrafo;
   }
-  
-  /************************ ESTILOS PARA PAGINA SERVICIOS ************************/
-  
-  .tareasServicios {
-    @extend .estiloBloques;
-    height: 96%;
-  
-    img {
-      display: inline-block;
-      width: 350px;
-      height: 200px;
-      object-fit: contain;
-    }
-  
-    h2 {
-      color: black;
-      font-size: 32px;
-    }
-  
-    h3 {
-      margin-top: 15px;
-    }
-  
-    p {
-      list-style-type: none;
+}
+
+.servicioInicio {
+  @extend .estiloBloques;
+
+  p {
+    font-family: map-get($fuenteGral, fuenteCuerpo);
+    font-style: map-get($fuenteGral, fuenteEstilo);
+    font-size: 20px;
+  }
+}
+
+.imagenCarousel {
+  height: 300px;
+  object-fit: contain;
+}
+
+/************************ ESTILOS PARA PAGINA SOBRE NOSOTROS ************************/
+
+.parrafoNosotros {
+  @extend .estiloBloques;
+  height: 96%;
+
+  p {
+    @include fuenteParrafo;
+  }
+
+  img {
+    margin-bottom: 10px;
+  }
+}
+
+/************************ ESTILOS PARA PAGINA SERVICIOS ************************/
+
+.tareasServicios {
+  @extend .estiloBloques;
+  height: 96%;
+
+  img {
+    display: inline-block;
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
+  }
+
+  h2 {
+    color: black;
+    font-size: 32px;
+  }
+
+  h3 {
+    margin-top: 15px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+
+    li {
       padding: 0px;
       margin: 0px;
       @include fuenteParrafo;
     }
+  }
+}
 
+.bloqueEjServicios {
+  @extend .estiloBloques;
+  .ejServicios {
+    display: inline-block;
+
+    iframe {
+      margin: 0px 0px 10px 0px;
+      padding: 0px;
+      width: 400px;
+      height: 225px;
+    }
+
+    p {
+      @include fuenteParrafo;
+    }
+  }
+}
+
+/************************ ESTILOS PARA PAGINA NOTICIAS ************************/
+
+.noticia {
+  @extend .estiloBloques;
+  height: 96%;
+
+  p {
+    @include fuenteParrafo;
+  }
+
+  img {
+    height: 200px;
+    margin: 10px;
+  }
+
+  div {
+    padding-bottom: 10px;
+  }
+}
+
+/************************ ESTILOS PARA PAGINA CONTACTO ************************/
+
+.formularioContacto {
+  @extend .estiloBloques;
+  text-align: center;
+}
+
+.listaContacto {
+  display: inline-block;
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  li {
+    list-style-type: none;
+    font-family: map-get($fuenteGral, fuenteCuerpo);
+    font-style: map-get($fuenteGral, fuenteEstilo);
+    padding-bottom: 10px;
+  }
+
+  p {
+    display: inline-block;
+    width: 170px;
+    margin: 0px;
+    padding: 0px;
+    font-size: map-get($fuenteGral, tamFuenteParrafo);
+  }
+}
+
+.formBotonContacto {
+  padding-top: 20px;
+
+  input {
+    @include fuenteParrafo;
+    width: 120px;
+  }
+}
+
+.mapaContacto {
+  @extend .estiloBloques;
+  text-align: center;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  iframe {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+  }
+}
+
+/************************ MEDIA QUERY PARA ADAPTAR IMAGENES A PANTALLAS MAS CHICAS ************************/
+
+@media (max-width: 860px) {
+  .titulo img {
+    width: 280px;
+    object-fit: contain;
+  }
+
+  .parrafoNosotros img {
+    width: 280px;
+    object-fit: contain;
+  }
+
+  .tareasServicios img {
+    width: 280px;
   }
 
   .bloqueEjServicios {
-    @extend .estiloBloques;
     .ejServicios {
-      display: inline-block;
-
       iframe {
-        width: 400px;
-        padding-bottom: 5px;
+        width: 350px;
+        height: 197px;
       }
-  
-      p {
-        @include fuenteParrafo;
+    }
+  }
+
+  .noticia img {
+    width: 280px;
+    object-fit: contain;
+  }
+
+  .mapaContacto iframe {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+/************************ MEDIA QUERY PARA ADAPTAR IMAGENES A PANTALLAS MAS CHICAS ************************/
+
+@media (max-width: 450px) {
+  .titulo img {
+    width: 250px;
+    object-fit: contain;
+  }
+
+  .parrafoNosotros img {
+    width: 250px;
+    object-fit: contain;
+  }
+
+  .tareasServicios img {
+    width: 250px;
+  }
+
+  .bloqueEjServicios {
+    .ejServicios {
+      iframe {
+        width: 250px;
+        height: 141px;
       }
-    
-    }
-
-  }
-  
-  /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
-  
-  .noticia {
-    @extend .estiloBloques;
-    height: 96%;
-  
-    p {
-      @include fuenteParrafo;
-    }
-  
-    img {
-      height: 200px;
-      margin: 10px;
-    }
-
-  }
-
-  /************************ ESTILOS PARA PAGINA CONTACTO ************************/
-  
-  .formularioContacto {
-    @extend .estiloBloques;
-    text-align: center;
-  }
-  
-  .listaContacto {
-    display: inline-block;;
-
-    ul {
-      margin: 0px;
-      padding: 0px;
-    }
-  
-    li {
-      list-style-type: none;
-      font-family: map-get($fuenteGral, fuenteCuerpo);
-      font-style: map-get($fuenteGral , fuenteEstilo);
-      padding-bottom: 10px;
-    }
-  
-    p {
-      display: inline-block;
-      width: 170px;
-      margin: 0px;
-      padding: 0px;
-      font-size: map-get($fuenteGral, tamFuenteParrafo);
-    }
-
-  } 
-
-  .formBotonContacto {
-    padding-top: 20px;
-  
-    input {
-      @include fuenteParrafo;
-      width: 120px;
-    }
-
-  }
-
-  .mapaContacto {
-    @extend .estiloBloques;
-    text-align: center;
-  
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-  
-    iframe {
-      display: inline-block;
-      width: 350px;
-      height: 350px;
-    }
-
-  }
-
-  /************************ MEDIA QUERY PARA ADAPTAR IMAGENES A PANTALLAS MAS CHICAS ************************/
-  
-  @media (max-width: 860px) {
-    .tituloNosotros img {
-      width: 280px;
-      object-fit: contain;
-    }
-  
-    .parrafoNosotros img {
-      width: 280px;
-      object-fit: contain;
-    }
-  
-    .tareasServicios img {
-      width: 280px;
-    }
-  
-    .ejServicios iframe {
-      width: 280px;
-      height: 200px;
-    }
-  
-    .noticia img {
-      width: 280px;
-      object-fit: contain;
-    }
-  
-    .mapaContacto iframe {
-      width: 280px;
-      height: 280px;
     }
   }
-  
+
+
+  .noticia img {
+    width: 250px;
+    object-fit: contain;
+  }
+
+  .mapaContacto iframe {
+    width: 250px;
+    height: 250px;
+  }
+}

@@ -81,11 +81,14 @@ footer {
   height: 90px;
   object-fit: contain; }
 
-.clientes li {
-  list-style-type: none;
-  font-size: 1.15rem;
-  font-family: "Lobster Two";
-  font-style: italic; }
+.clientes ul {
+  margin: 5px;
+  padding: 0px; }
+  .clientes ul li {
+    list-style-type: none;
+    font-size: 1.15rem;
+    font-family: "Lobster Two";
+    font-style: italic; }
 
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 .staffInicio {
@@ -115,11 +118,8 @@ footer {
     font-size: 1.15rem;
     font-family: "Lobster Two";
     font-style: italic; }
-  .parrafoNosotros div {
-    border: 2px solid black;
-    border-radius: 7px;
-    padding: 10px;
-    background-color: ghostwhite; }
+  .parrafoNosotros img {
+    margin-bottom: 10px; }
 
 /************************ ESTILOS PARA PAGINA SERVICIOS ************************/
 .tareasServicios {
@@ -134,19 +134,24 @@ footer {
     font-size: 32px; }
   .tareasServicios h3 {
     margin-top: 15px; }
-  .tareasServicios p {
+  .tareasServicios ul {
     list-style-type: none;
-    padding: 0px;
     margin: 0px;
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic; }
+    padding: 0px 0px 10px 0px; }
+    .tareasServicios ul li {
+      padding: 0px;
+      margin: 0px;
+      font-size: 1.15rem;
+      font-family: "Lobster Two";
+      font-style: italic; }
 
 .bloqueEjServicios .ejServicios {
   display: inline-block; }
   .bloqueEjServicios .ejServicios iframe {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
     width: 400px;
-    padding-bottom: 5px; }
+    height: 225px; }
   .bloqueEjServicios .ejServicios p {
     font-size: 1.15rem;
     font-family: "Lobster Two";
@@ -162,6 +167,8 @@ footer {
   .noticia img {
     height: 200px;
     margin: 10px; }
+  .noticia div {
+    padding-bottom: 10px; }
 
 /************************ ESTILOS PARA PAGINA CONTACTO ************************/
 .formularioContacto {
@@ -205,7 +212,7 @@ footer {
 
 /************************ MEDIA QUERY PARA ADAPTAR IMAGENES A PANTALLAS MAS CHICAS ************************/
 @media (max-width: 860px) {
-  .tituloNosotros img {
+  .titulo img {
     width: 280px;
     object-fit: contain; }
   .parrafoNosotros img {
@@ -213,12 +220,32 @@ footer {
     object-fit: contain; }
   .tareasServicios img {
     width: 280px; }
-  .ejServicios iframe {
-    width: 280px;
-    height: 200px; }
+  .bloqueEjServicios .ejServicios iframe {
+    width: 350px;
+    height: 197px; }
   .noticia img {
     width: 280px;
     object-fit: contain; }
   .mapaContacto iframe {
     width: 280px;
     height: 280px; } }
+
+/************************ MEDIA QUERY PARA ADAPTAR IMAGENES A PANTALLAS MAS CHICAS ************************/
+@media (max-width: 450px) {
+  .titulo img {
+    width: 250px;
+    object-fit: contain; }
+  .parrafoNosotros img {
+    width: 250px;
+    object-fit: contain; }
+  .tareasServicios img {
+    width: 250px; }
+  .bloqueEjServicios .ejServicios iframe {
+    width: 250px;
+    height: 141px; }
+  .noticia img {
+    width: 250px;
+    object-fit: contain; }
+  .mapaContacto iframe {
+    width: 250px;
+    height: 250px; } }
