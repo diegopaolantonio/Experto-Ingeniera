@@ -1,14 +1,14 @@
 /* ESTILO BLOQUE DE TITULO DE LOS 5 HTMLS */
 
 .titulo {
-    @extend .estiloBloques;
-    text-align: center;
+  @extend .estiloBloques;
+  text-align: center;
 
-    h1 {
-        color: green;
-    }
-  
-    p {
-        @include fuenteParrafo;
-    }
+  h1 {
+    color: green;
+  }
+
+  p {
+    @include fuenteParrafo;
+  }
 }

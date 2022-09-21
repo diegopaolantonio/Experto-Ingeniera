@@ -1,8 +1,18 @@
-$estiloGral: (bordesBloques: 2px solid black, redondeoBordes: 7px, margenBloques: 10px, paddingBloques: 10px, colorFondo: ghostwhite);
-$fuenteGral: (tamFuenteParrafo: 1.15rem, fuenteCuerpo: "Lobster Two", fuenteEstilo: italic);
-
+$estiloGral: (
+  bordesBloques: 2px solid black,
+  redondeoBordes: 7px,
+  margenBloques: 10px,
+  paddingBloques: 10px,
+  colorFondo: ghostwhite,
+);
+$fuenteGral: (
+  tamFuenteParrafo: 18px,
+  fuenteCuerpo: "Merriweather",
+  fuenteEstilo: normal,
+);
+// "Lobster Two"  italic
 @mixin fuenteParrafo {
-    font-size: map-get($fuenteGral, tamFuenteParrafo);
-    font-family: map-get($fuenteGral, fuenteCuerpo);
-    font-style: map-get($fuenteGral , fuenteEstilo);
+  font-size: map-get($fuenteGral, tamFuenteParrafo);
+  font-family: map-get($fuenteGral, fuenteCuerpo);
+  font-style: map-get($fuenteGral, fuenteEstilo);
 }

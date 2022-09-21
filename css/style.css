@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@1,300&display=swap");
 /************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
 /* RESET MARGIN Y PADDING, Y COLOR DE FONDO */
 * {
@@ -9,7 +9,7 @@ body {
   background-color: #c9f8c3; }
 
 /*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
-.estiloBloques, footer, .titulo, .clientes, .staffInicio, .servicioInicio, .parrafoNosotros, .tareasServicios, .bloqueEjServicios, .noticia, .formularioContacto, .mapaContacto {
+.estiloBloques, header nav, footer, .titulo, .clientes, .staffInicio, .servicioInicio, .parrafoNosotros, .tareasServicios, .bloqueEjServicios, .noticia, .formularioContacto, .mapaContacto {
   border: 2px solid black;
   border-radius: 7px;
   margin: 10px;
@@ -19,17 +19,22 @@ body {
 /* HEADER */
 header {
   padding: 15px 0px 15px 0px; }
-  header Img {
-    width: 35px;
-    height: 35px;
-    margin-right: 5px; }
-  header ul li {
-    text-align: right; }
-    header ul li:hover {
-      font-size: 1.25rem;
-      transition: all 0.5s; }
-  header .enlace a:hover {
-    color: darkgreen; }
+  header nav {
+    margin: 0px;
+    padding: 0px; }
+    header nav .boton {
+      background-color: #c9f8c3; }
+    header nav Img {
+      width: 35px;
+      height: 35px;
+      margin-right: 5px; }
+    header nav ul li {
+      text-align: right; }
+      header nav ul li:hover {
+        font-size: 1.25rem;
+        transition: all 0.5s; }
+    header nav .enlace a:hover {
+      color: darkgreen; }
 
 /* ICONO FIJO PARA IR A CONTACTO */
 .enlaceMail {
@@ -68,9 +73,9 @@ footer {
   .titulo h1 {
     color: green; }
   .titulo p {
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic; }
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal; }
 
 /* ESTILO BLOQUE DE CLIENTES */
 .clientes h2 {
@@ -86,9 +91,9 @@ footer {
   padding: 0px; }
   .clientes ul li {
     list-style-type: none;
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic; }
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal; }
 
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 .staffInicio {
@@ -97,15 +102,15 @@ footer {
   .staffInicio img {
     width: 283px;
     object-fit: contain; }
-  .staffInicio p {
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic; }
+  .staffInicio .informacionStaff {
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal; }
 
 .servicioInicio p {
-  font-family: "Lobster Two";
-  font-style: italic;
-  font-size: 20px; }
+  font-size: 18px;
+  font-family: "Merriweather";
+  font-style: normal; }
 
 .imagenCarousel {
   height: 300px;
@@ -115,9 +120,9 @@ footer {
 .parrafoNosotros {
   height: 96%; }
   .parrafoNosotros p {
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic; }
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal; }
   .parrafoNosotros img {
     margin-bottom: 10px; }
 
@@ -134,6 +139,10 @@ footer {
     font-size: 32px; }
   .tareasServicios h3 {
     margin-top: 15px; }
+  .tareasServicios p {
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal; }
   .tareasServicios ul {
     list-style-type: none;
     margin: 0px;
@@ -141,9 +150,9 @@ footer {
     .tareasServicios ul li {
       padding: 0px;
       margin: 0px;
-      font-size: 1.15rem;
-      font-family: "Lobster Two";
-      font-style: italic; }
+      font-size: 18px;
+      font-family: "Merriweather";
+      font-style: normal; }
 
 .bloqueEjServicios .ejServicios {
   display: inline-block; }
@@ -153,17 +162,17 @@ footer {
     width: 400px;
     height: 225px; }
   .bloqueEjServicios .ejServicios p {
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic; }
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal; }
 
 /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
 .noticia {
   height: 96%; }
   .noticia p {
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic; }
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal; }
   .noticia img {
     height: 200px;
     margin: 10px; }
@@ -181,22 +190,22 @@ footer {
     padding: 0px; }
   .listaContacto li {
     list-style-type: none;
-    font-family: "Lobster Two";
-    font-style: italic;
+    font-family: "Merriweather";
+    font-style: normal;
     padding-bottom: 10px; }
   .listaContacto p {
     display: inline-block;
     width: 170px;
     margin: 0px;
     padding: 0px;
-    font-size: 1.15rem; }
+    font-size: 18px; }
 
 .formBotonContacto {
   padding-top: 20px; }
   .formBotonContacto input {
-    font-size: 1.15rem;
-    font-family: "Lobster Two";
-    font-style: italic;
+    font-size: 18px;
+    font-family: "Merriweather";
+    font-style: normal;
     width: 120px; }
 
 .mapaContacto {

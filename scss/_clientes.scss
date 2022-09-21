@@ -1,25 +1,24 @@
 /* ESTILO BLOQUE DE CLIENTES */
 
 .clientes {
-    @extend .estiloBloques;
+  @extend .estiloBloques;
 
-    h2 {
-        font-size: 40px;
-    }
-  
-    img {
-        width: 200px;
-        height: 90px;
-        object-fit: contain;
-    }
-    
-    ul {
-        margin: 5px;
-        padding: 0px;
-        li {
-            list-style-type: none;
-            @include fuenteParrafo;
-        }
+  h2 {
+    font-size: 40px;
+  }
 
+  img {
+    width: 200px;
+    height: 90px;
+    object-fit: contain;
+  }
+
+  ul {
+    margin: 5px;
+    padding: 0px;
+    li {
+      list-style-type: none;
+      @include fuenteParrafo;
     }
+  }
 }

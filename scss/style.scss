@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@1,300&display=swap");
 
 @import "variables";
 @import "headerFooter";
@@ -17,7 +18,7 @@
     object-fit: contain;
   }
 
-  p {
+  .informacionStaff {
     @include fuenteParrafo;
   }
 }
@@ -26,9 +27,7 @@
   @extend .estiloBloques;
 
   p {
-    font-family: map-get($fuenteGral, fuenteCuerpo);
-    font-style: map-get($fuenteGral, fuenteEstilo);
-    font-size: 20px;
+    @include fuenteParrafo;
   }
 }
 
@@ -72,6 +71,10 @@
 
   h3 {
     margin-top: 15px;
+  }
+
+  p {
+    @include fuenteParrafo;
   }
 
   ul {
@@ -244,7 +247,6 @@
       }
     }
   }
-
 
   .noticia img {
     width: 250px;

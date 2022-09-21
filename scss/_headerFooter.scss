@@ -3,100 +3,109 @@
 /* RESET MARGIN Y PADDING, Y COLOR DE FONDO */
 
 * {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    background-color: #c9f8c3;
+  background-color: #c9f8c3;
 }
 
 /*ESTILO GENERAL DE LOS BLOQUES DE INFORMACION*/
 
 .estiloBloques {
-    border: map-get($estiloGral, bordesBloques);
-    border-radius: map-get($estiloGral, redondeoBordes);
-    margin: map-get($estiloGral, margenBloques);
-    padding: map-get($estiloGral, paddingBloques);
-    background-color: map-get($estiloGral, colorFondo);
+  border: map-get($estiloGral, bordesBloques);
+  border-radius: map-get($estiloGral, redondeoBordes);
+  margin: map-get($estiloGral, margenBloques);
+  padding: map-get($estiloGral, paddingBloques);
+  background-color: map-get($estiloGral, colorFondo);
 }
 
 /* HEADER */
 
 header {
-    padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 0px;
+
+  nav {
+    margin: 0px;
+    padding: 0px;
+    @extend .estiloBloques;
+
+    .boton {
+      background-color: #c9f8c3;
+    }
 
     Img {
-        width: 35px;
-        height: 35px;
-        margin-right: 5px;
+      width: 35px;
+      height: 35px;
+      margin-right: 5px;
     }
 
     ul {
+      li {
+        text-align: right;
 
-        li {
-            text-align: right;
-  
-            &:hover {
-                font-size: 1.25rem;
-                transition: all 0.5s;
-            }
+        &:hover {
+          font-size: 1.25rem;
+          transition: all 0.5s;
         }
+      }
     }
-    
+
     .enlace {
-        a {
-            &:hover {
-                color: darkgreen;
-            }
-        }    
+      a {
+        &:hover {
+          color: darkgreen;
+        }
+      }
     }
-}        
+  }
+}
 
 /* ICONO FIJO PARA IR A CONTACTO */
 
 .enlaceMail {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 
-    img {
-        height: 60px;
-        width: 60px;
-    }
+  img {
+    height: 60px;
+    width: 60px;
+  }
 }
 
 /* FOOTER */
 
 footer {
-    @extend .estiloBloques;
-    margin: 10px 0px 10px 0px;
-    padding: 10px;
+  @extend .estiloBloques;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
 
-    .redes {
-        text-align: right;
-        margin-right: 80px;
+  .redes {
+    text-align: right;
+    margin-right: 80px;
 
-        h3 {
-            font-size: 1rem;
-        }
-    
-        li {
-            display: inline;  
-        }
+    h3 {
+      font-size: 1rem;
     }
 
-    p {
-        font-size: 1rem;
-        font-weight: bold;
-        margin: 0px;
-        color: blue;
+    li {
+      display: inline;
     }
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px;
+    color: blue;
+  }
 }
 
 /* Clase creada para quitar margenes de bootstrap */
 
 .nuevaClase {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
