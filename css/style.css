@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
 /************************ ESTILOS QUE SON COMUNES EN LAS PAGINAS (FONDO, HEADER Y FOOTER)  ************************/
 /* RESET MARGIN Y PADDING, Y COLOR DE FONDO */
 * {
@@ -74,8 +74,8 @@ footer {
     color: green; }
   .titulo p {
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal; }
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
 
 /* ESTILO BLOQUE DE CLIENTES */
 .clientes h2 {
@@ -92,8 +92,8 @@ footer {
   .clientes ul li {
     list-style-type: none;
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal; }
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
 
 /************************ ESTILOS PARA PAGINA DE INICIO ************************/
 .staffInicio {
@@ -104,13 +104,13 @@ footer {
     object-fit: contain; }
   .staffInicio .informacionStaff {
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal; }
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
 
 .servicioInicio p {
   font-size: 18px;
-  font-family: "Merriweather";
-  font-style: normal; }
+  font-family: "Abyssinica SIL";
+  font-style: serif; }
 
 .imagenCarousel {
   height: 300px;
@@ -121,8 +121,8 @@ footer {
   height: 96%; }
   .parrafoNosotros p {
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal; }
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
   .parrafoNosotros img {
     margin-bottom: 10px; }
 
@@ -141,8 +141,8 @@ footer {
     margin-top: 15px; }
   .tareasServicios p {
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal; }
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
   .tareasServicios ul {
     list-style-type: none;
     margin: 0px;
@@ -151,8 +151,8 @@ footer {
       padding: 0px;
       margin: 0px;
       font-size: 18px;
-      font-family: "Merriweather";
-      font-style: normal; }
+      font-family: "Abyssinica SIL";
+      font-style: serif; }
 
 .bloqueEjServicios .ejServicios {
   display: inline-block; }
@@ -163,16 +163,16 @@ footer {
     height: 225px; }
   .bloqueEjServicios .ejServicios p {
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal; }
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
 
 /************************ ESTILOS PARA PAGINA NOTICIAS ************************/
 .noticia {
   height: 96%; }
   .noticia p {
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal; }
+    font-family: "Abyssinica SIL";
+    font-style: serif; }
   .noticia img {
     height: 200px;
     margin: 10px; }
@@ -190,8 +190,8 @@ footer {
     padding: 0px; }
   .listaContacto li {
     list-style-type: none;
-    font-family: "Merriweather";
-    font-style: normal;
+    font-family: "Abyssinica SIL";
+    font-style: serif;
     padding-bottom: 10px; }
   .listaContacto p {
     display: inline-block;
@@ -204,8 +204,8 @@ footer {
   padding-top: 20px; }
   .formBotonContacto input {
     font-size: 18px;
-    font-family: "Merriweather";
-    font-style: normal;
+    font-family: "Abyssinica SIL";
+    font-style: serif;
     width: 120px; }
 
 .mapaContacto {

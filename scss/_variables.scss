@@ -5,12 +5,13 @@ $estiloGral: (
   paddingBloques: 10px,
   colorFondo: ghostwhite,
 );
+
 $fuenteGral: (
   tamFuenteParrafo: 18px,
-  fuenteCuerpo: "Merriweather",
-  fuenteEstilo: normal,
+  fuenteCuerpo: 'Abyssinica SIL',
+  fuenteEstilo: serif,
 );
-// "Lobster Two"  italic
+
 @mixin fuenteParrafo {
   font-size: map-get($fuenteGral, tamFuenteParrafo);
   font-family: map-get($fuenteGral, fuenteCuerpo);
