@@ -100,7 +100,9 @@ footer {
   margin: 10px 10px 0px 10px;
   padding: 10px 10px 0px 10px; }
   .staffInicio img {
-    width: 283px;
+    padding-bottom: 10px;
+    width: 280px;
+    height: 300px;
     object-fit: contain; }
   .staffInicio .informacionStaff {
     font-size: 18px;

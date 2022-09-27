@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
 
 @import "variables";
 @import "headerFooter";
@@ -13,7 +13,9 @@
   padding: 10px 10px 0px 10px;
 
   img {
-    width: 283px;
+    padding-bottom: 10px;
+    width: 280px;
+    height: 300px;
     object-fit: contain;
   }
 
